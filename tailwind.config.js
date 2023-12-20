@@ -8,6 +8,9 @@ module.exports = {
     './src/**/*.{ts,tsx}',
 	],
   theme: {
+    fontFamily: {
+      'Salis-MVB': ['salis-mvb', 'sans-serif'],
+    },
     container: {
       center: true,
       padding: "2rem",

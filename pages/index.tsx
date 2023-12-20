@@ -45,6 +45,7 @@ const Home = () => {
       <Head>
         {/* Include any head-related metadata here */}
         <title>Yudae Wellness Wiki</title>
+        <link rel="stylesheet" href="https://use.typekit.net/csw7vwt.css"></link>
       </Head>
 
       {/* Search */}
