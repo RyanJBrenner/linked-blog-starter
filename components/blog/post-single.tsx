@@ -24,17 +24,17 @@ function PostSingle({
   backlinks
 }: Props) {
   return (
-    <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+    <section className='bg-blue-100'>
+      <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
-          <div className="max-w-3xl mx-auto lg:max-w-none">
+          <div className="max-w-4xl mx-auto lg:max-w-none">
 
-            <article>
+            <article className="px-8 py-8 shadow-lg rounded-xl bg-white">
 
               {/* Article header */}
-              <header className="max-w-3xl mx-auto mb-20">
+              <header className="max-w-4xl mx-auto mb-2 left-0 shirnk-1">
                 {/* Title */}
-                <h1 className="h1 text-center mb-4 text-6xl">{title}</h1>
+                <h1 className="h1 w-50 overflow-clip text-left mb-4 ml-3 text-blue-400 text-5xl px-0 article-header">{title}</h1>
               </header>
 
               {/* Article content */}
@@ -42,7 +42,7 @@ function PostSingle({
 
 
                 {/* Main content */}
-                <div>
+                <div className="px-4 py-4" >
 
                   {/* Article meta */}
                   {(author || date) && (
@@ -58,11 +58,11 @@ function PostSingle({
                 </div>
 
                 {/* Sidebar */}
-                <hr className="my-10 border border-dashed lg:block"/>
-                <aside className="relative lg:block lg:w-72 lg:ml-20 shrink-0">
+                <hr className="my-10 border border-dashed lg:block mx-4"/>
+                <aside className="relative mt-10 md:block lg:w-64 md:ml-0 sm:ml-0 shrink-0 shadow-inner px-4 py-4 rounded-lg left-0">
                   <div>
-                    <h4 className="text-lg font-bold leading-snug tracking-tight mb-4">Backlinks</h4>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-4">
+                    <h4 className="text-sm font-reg leading-snug tracking-tight mb-4 text-slate-400">Related Articles</h4>
+                    <div className="grid grid-cols-1 sm:grid-flow-row md:grid-cols-2 lg:grid-cols-1 gap-4">
                       {
                         (Object.keys(backlinks).length > 0) && (
                             <Backlinks backlinks={backlinks} />

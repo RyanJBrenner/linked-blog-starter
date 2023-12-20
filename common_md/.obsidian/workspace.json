@@ -1,0 +1,275 @@
+{
+  "main": {
+    "id": "75912ba5304acfea",
+    "type": "split",
+    "children": [
+      {
+        "id": "02c5160b30a396a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82125da3346fbf01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "home.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "88fbafe22b70e753",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fitness/exercise-fitness.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5f30f309e4831b3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fitness/exercise-fitness.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3a8ed13031e06221",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "home.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53c0e06134a707b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "health-optimization/health-optimization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b9daad2812779d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "other/accepted-markdown-metadata.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b97856dcab08b695",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "home.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f72ff9516cdacb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "weight-loss/drugs/eli-lilly-zepbound-weight-loss-drug.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "080ce61f9c4bc1e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d913262ad0aabe5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6396fc312fafd30f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dae6704b965d2c31",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3b42dcb9babf00de",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 255.5
+  },
+  "right": {
+    "id": "5b932ee7ee2ac840",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6a0330f7b24215c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c41dbcfbacbe2f2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "weight-loss/drugs/eli-lilly-zepbound-weight-loss-drug.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "80b2e8e28b5a9d3a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "weight-loss/drugs/eli-lilly-zepbound-weight-loss-drug.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "32323335a5f34b7e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "13e479b4181ddaee",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "weight-loss/drugs/eli-lilly-zepbound-weight-loss-drug.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1f72ff9516cdacb5",
+  "lastOpenFiles": [
+    "mental-health/mental-health.md",
+    "home.md",
+    "fitness/exercise-fitness.md",
+    "mental-health",
+    "other/install-linked-blog-starter-locally.md",
+    "other/get-project-id-account-id-and-token-vercel.md",
+    "other/accepted-markdown-metadata.md",
+    "weight-loss/drugs/eli-lilly-zepbound-weight-loss-drug.md",
+    "other",
+    "weight-loss/drugs/eli-lilly-zepbound-weight-loss-drug 1.md",
+    "weight-loss/weight-loss.md",
+    "weight-loss/drugs/eli-lilly-zepbound-weight-loss-drug-fda-approval.md",
+    "eli-lilly-zepbound-weight-loss-drug.md",
+    "drugs",
+    "weight-loss/drugs",
+    "common_md/weight-loss/weight-loss.md",
+    "common_md/weight-loss",
+    "common_md",
+    "weight-loss",
+    "fitness/lower-body-workout 2.md",
+    "fitness/upper-body-workout-2.md",
+    "fitness/what-is-cardio.md",
+    "fitness/what-are-exercise-snacks.md",
+    "fitness/lower-body-workout.md",
+    "fitness/how-can-I-decrease-my-mile-time.md",
+    "fitness/upper-body-workout.md",
+    "fitness/workouts-we-do-on-weekends.md",
+    "health-optimization/health-optimization.md",
+    "calisthenics-workout.md",
+    "other/statically-generated.md",
+    "other/reinventing-the-wheel.md",
+    "fitness/upper-body-strength.md",
+    "attachments/Ryan-Brenner.png",
+    "home (Conflicted copy from Ryan’s MacBook Pro on 2023-12-15).md",
+    "6b68d825ee54b325268a9dc7757753ea._gstmp",
+    "fitness",
+    "assets",
+    "attachments/SVG/Asset 5.svg"
+  ]
+}

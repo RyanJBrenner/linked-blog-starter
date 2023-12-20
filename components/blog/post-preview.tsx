@@ -21,12 +21,12 @@ const PostPreview = ({
     <article className="flex items-center py-4 border-b border-gray-200 justify-between w-full">
       <div>
         <header>
-          <h2 className="h4 mb-2">
+          <h2 className="h4 mb-2 text-lg">
             <Link as={`/${slug}`} href="/[...slug]" className="hover:underline">{title}</Link>
           </h2>
         </header>
-        <div className="text-lg text-gray-600 mb-4 text-ellipsis">
-          {excerpt.slice(0, 500)}
+        <div className="text-sm text-gray-600 mb-4 text-ellipsis">
+          {excerpt.slice(0, 400)}
         </div>
         <footer className="text-sm">
           <PostMeta date={date} author={author} />

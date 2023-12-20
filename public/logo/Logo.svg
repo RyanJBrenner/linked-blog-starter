@@ -1,0 +1,41 @@
+@import url("https://use.typekit.net/csw7vwt.css");
+
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365 143">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-5 {
+        fill: #fff;
+        font-family: SalisMVB-HeavyItalic, 'Salis MVB';
+        font-size: 98px;
+        font-style: italic;
+        font-weight: 800;
+      }
+
+      .cls-6 {
+        fill: #4e7fff;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-6" width="365" height="143"/>
+    <text class="cls-5" transform="translate(31.66 104.9)"><tspan class="cls-4" x="0" y="0">Y</tspan><tspan class="cls-1" x="54.98" y="0">U</tspan><tspan class="cls-2" x="118.38" y="0">D</tspan><tspan class="cls-3" x="180.02" y="0">AE</tspan></text>
+  </g>
+</svg>

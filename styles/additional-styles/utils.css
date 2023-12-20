@@ -1,5 +1,7 @@
+@import url("https://use.typekit.net/csw7vwt.css");
+
 .internal-link-container > .note-preview {
-  @apply hidden absolute w-[350px] left-0 z-50;
+  @apply hidden absolute w-[400px] left-0 z-50;
   text-align: left !important;
   line-height: normal !important;
   letter-spacing: normal !important;
@@ -16,26 +18,45 @@
 }
 .internal-link {
   @apply rounded;
-  color: #0969da;
+  color: rgb(96 165 250);
   background-color: rgb(243 250 251) !important;
 }
 
 /* Typography */
 .h1 {
-    @apply text-4xl font-extrabold leading-tight tracking-tighter;
+    @apply text-4xl font-black italic leading-tight tracking-tighter;
 }
 
 .h2 {
-    @apply text-3xl font-extrabold leading-tight tracking-tighter;
+    @apply text-3xl font-bold leading-tight tracking-tighter;
 }
 
 .h3 {
-    @apply text-3xl font-bold leading-tight;
+    @apply text-2xl font-bold leading-tight;
 }
 
 .h4 {
-    @apply text-2xl font-bold leading-snug tracking-tight;
+    @apply text-xl font-bold leading-snug tracking-tight;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* font-family: "salis-mvb"; */
+    font-family: "salis-mvb", sans-serif;
+}
+body {
+    /* font-family: "panel-mono", monospace;
+    font-size: .7em; */
+    font-family: "salis-mvb";
+    font-size: 1.2em;
+}
+
+
+
 
 @screen md {
     .h1 {
@@ -50,7 +71,8 @@
 
 /* Buttons */
 .btn,
-.btn-sm {
+.btn-sm,
+.btn-md {
     @apply font-medium inline-flex items-center justify-center border border-transparent rounded leading-snug transition duration-150 ease-in-out;
 }
 
@@ -60,6 +82,10 @@
 
 .btn-sm {
     @apply px-4 py-2 shadow;
+}
+
+.btn-md {
+    @apply px-6 py-2 shadow-md
 }
 
 /* Hamburger button */

@@ -1,56 +1,38 @@
 ---
-title: An Extendable Obsidian Publish alternative using Next.JS
-excerpt: Create your own template or use someone else's. Changing the template is a matter of updating one line
+title: Yudae is the feeling of happiness through health. 
+excerpt: Discover the wellness knowledge you need to live a long, happy life. Start with some of our top articles below, or search a keyword in the top right. 
 ---
+## The goal of [this website](statically-generated.md)
 
-## Problems with Obsidian Publish Alternatives (from ChatGPT):
+Essentially, think of us as the wikipedia of wellness. We designed this space to contain pure wellness knowledge about some of the most popular health & wellness topics discussed today. 
 
+Learn a bit more with a word from our founder. 
+
+[![Yudae Reel](http://img.youtube.com/vi/3baZA96RbPc/0.jpg)](http://www.youtube.com/watch?v=3baZA96RbPc)
+
+
+
+## Pick a category to get started.
+
+ > **[Exercise & Fitness](fitness/exercise-fitness)** 
+ > Staying active is the single easiest way to maintaining long term health. Explore some of our strongest fitness workouts and hacks.  
  > 
- > **Compatibility**: Not all Obsidian Publish alternatives may be compatible with all versions of Obsidian or all markdown syntax, which can make it difficult to use certain tools or services. 
+ > **[Mental Health](/mental-health/mental-health)** 
+ > Mental health has never been as popular as it is now, but not for good reason. Get a hold of your mindset with these top articles. 
  > 
- > **Ease of use:** Some Obsidian Publish alternatives may be more difficult to set up or use than others, which can make it frustrating for new users to get started.
+ > **[Diet & Nutrition](diet-nutrition/diet-nutrition)** 
+ > Some Obsidian Publish alternatives may not offer as much customization as users may want, making it difficult to tailor the appearance and functionality of their published notes to their specific needs and preferences.
  > 
- > **Customization**: Some Obsidian Publish alternatives may not offer as much customization as users may want, making it difficult to tailor the appearance and functionality of their published notes to their specific needs and preferences.
- > 
- > **Performance**: Some Obsidian Publish alternatives may not perform as quickly or smoothly as users may expect, which can make it frustrating to use.
+ > **[Health Optimization](health-optimization/brian-johnsons-routine)**: Some Obsidian Publish alternatives may not perform as quickly or smoothly as users may expect, which can make it frustrating to use.
+ 
+## The Yudae principals 
+(as of 12/01/23)
 
--- ChatGPT
-
-## How the linked-blog-starter template addresses these problems:
-
-### Compatibility
-
-[External / extensible libraries](linked-blog-starter-does-not-reinvent-wheel.md) are used to convert Obsidian MD files to common markdown then to HTML
-
-### Ease of Use
-
-Obsidian notes [work out of the box](works-out-of-the-box-with-markdown-files.md) and after the [setup](publish-your-obsidian-notes-with-linked-blog-starter.md), publishing notes is done in 2 steps:
-1. Write a note in `/publish` folder within Obsidian
-2. Run the backup command [using the Obsidian Git plugin](connect-obsidian-vault-with-github.md)
-
-### Customization
-
-[Create your own template](deploy-a-custom-linked-blog-starter.md) or use someone else's! Changing the template is simple matter of [updating one line in your repository](update-publish-settings-github-actions.md).
-- There's also an added feature to add "PreviewLinks" to text outside of markdown files. (See the footer in the [example](https://linked-blog-starter.vercel.app/home))
-
-### Performance
-
-All markdown files are [statically generated](statically-generated.md) meaning loading speeds are super speedy!
-
-## Getting Started
-
-### Demo
-
-[https://linked-blog-starter.vercel.app/](https://linked-blog-starter.vercel.app/)
-
-### Deploy your own
-
-Only deploy through this method, if you want to get a quick server up and running. Otherwise, I'd recommend following the [instructions to integrate this with your Obsidian Vault](publish-your-obsidian-notes-with-linked-blog-starter.md).
-
-Deploy the example using [Vercel](https://vercel.com/new/git/external?repository-url=https://github.com/matthewwong525/linked-blog-starter&project-name=linked-blog-starter&repository-name=linked-blog-starter) or preview live with [StackBlitz](https://stackblitz.com/github/matthewwong525/linked-blog-starter)
-
-### Create a Custom Fork
-
-Here is an example of how I [forked this repo](https://github.com/fleetingnotes/fleeting-notes-website) to create a landing page for [Fleeting Notes](https://www.fleetingnotes.app/). See [how to deploy a custom version of the linked-blog-starter](deploy-a-custom-linked-blog-starter.md)
-
-![fn-website-demo.gif](attachments/fn-website-demo.gif)
+1. Holistic and wellness center
+2. Health and Wellness 
+3. Mental Health
+4. Workout at home
+5. Gyms near me
+6. Core Workout
+7. Weight loss workout
+8. [Weight loss](/weight-loss/weight-loss)

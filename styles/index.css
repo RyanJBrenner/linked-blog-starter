@@ -2,4 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@import 'additional-styles/utils.css'
+@import 'additional-styles/utils.css';
+
+@import url("https://use.typekit.net/csw7vwt.css");
+
+/* body {
+    background-color: rgba(249, 249, 249, 0.696);
+} */
