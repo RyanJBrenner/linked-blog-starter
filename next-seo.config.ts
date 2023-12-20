@@ -1,6 +1,6 @@
 import { DefaultSeoProps } from "next-seo";
 
-const description = "Host your second brain with NextJS"
+const description = "Discover the wiki of wellness."
 // See https://www.npmjs.com/package/next-seo for more options
 const config: DefaultSeoProps = {
   titleTemplate: "%s | Linked Blog Starter",
@@ -10,8 +10,8 @@ const config: DefaultSeoProps = {
   openGraph: {
     type: 'website',
     locale: 'en_IE',
-    title: 'Linked Blog Starter',
-    description,
+    title: 'Wiki of Wellness',
+    description: 'Discover the wiki of wellness by Yudae. A complete open-source repository of health & wellness information. Free today and free forever, just click to get started.',
   },
   additionalLinkTags: [
     {

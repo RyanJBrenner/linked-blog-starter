@@ -43,9 +43,29 @@ const Home = () => {
   return (
     <Layout>
       <Head>
-        {/* Include any head-related metadata here */}
-        <title>Yudae Wellness Wiki</title>
         <link rel="stylesheet" href="https://use.typekit.net/csw7vwt.css"></link>
+
+        {/* Metadata SEO for webpage */}
+        <title>The Wiki of Wellness</title>
+        <meta 
+          name="description" 
+          content="Discover mental health, fitness, and nutrition for weight loss and improved health." 
+          key="desc" 
+        />
+
+        {/* Facebook optimized SEO */}
+        <meta 
+          property="og:title" 
+          content="Discover the Wiki of Wellness" 
+        />
+        <meta
+          property="og:description"
+          content="Discover mental health, fitness, and nutrition for weight loss and improved health." 
+        />
+        <meta
+          property="og:image"
+          content="/public/logo.png"
+        />
       </Head>
 
       {/* Search */}
