@@ -24,11 +24,11 @@
 
 /* Typography */
 .h1 {
-    @apply text-4xl font-black italic leading-tight tracking-tighter;
+    @apply text-4xl font-bold italic leading-tight tracking-tight;
 }
 
 .h2 {
-    @apply text-3xl font-bold leading-tight tracking-tighter;
+    @apply text-3xl font-bold leading-tight tracking-tight;
 }
 
 .h3 {
@@ -49,10 +49,10 @@ h6 {
     font-family: "salis-mvb", sans-serif;
 }
 body {
-    /* font-family: "panel-mono", monospace;
-    font-size: .7em; */
+    /* font-family: monospace;
+    font-size: 1em; */
     font-family: "salis-mvb";
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 
@@ -60,11 +60,11 @@ body {
 
 @screen md {
     .h1 {
-        @apply text-5xl;
+        @apply text-3xl;
     }
 
     .h2 {
-        @apply text-4xl;
+        @apply text-2xl;
     }
 }
 
