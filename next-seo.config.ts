@@ -5,7 +5,7 @@ const description = "Discover the wiki of wellness."
 const config: DefaultSeoProps = {
   titleTemplate: "%s | Linked Blog Starter",
   defaultTitle: "Linked Blog Starter | My Second Brain",
-  description,
+  description: 'Discover the wiki of wellness by Yudae. A complete open-source repository of health & wellness information. Free today and free forever, just click to get started.',
 
   openGraph: {
     type: 'website',
