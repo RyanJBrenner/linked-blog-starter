@@ -2,7 +2,7 @@ import React from 'react';
 
 const Newsletter: React.FC = () => {
   return (
-    <><div className="relative w-full isolate rounded-xl mt-20 bg-slate-900 pt-16 sm:py-24 lg:py-32">
+    <><div className="relative w-full isolate rounded-xl mt-20 bg-slate-900 backdrop-blur-lg pt-16 sm:py-24 lg:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
                   <div className="max-w-xl lg:max-w-lg">

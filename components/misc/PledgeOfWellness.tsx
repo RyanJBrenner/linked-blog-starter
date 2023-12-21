@@ -2,8 +2,8 @@ import React from "react"
 
 export default function PledgeOfWellness() {
     return(
-    <div className="relative w-full isolate bg-gray-900 mt-20 py-16 sm:py-24 lg:py-32">
-      <div className="max-w-3xl px-6 lg:px-8 bg-gradient-to-r from-blue-400 to-gray-200 rounded-xl shadow-xl focus:ring-1">
+    <div className="relative w-full isolate mt-20 py-16 sm:py-24 lg:py-32">
+      <div className="max-w-3xl px-6 lg:px-8 bg-gradient-to-r from-blue-400 to-slate-100 rounded-xl shadow-xl focus:ring-1">
         <div className="py-8 px-4 mx-auto max-w-4/5 lg:py-16 lg:px-6">
             <div className="mx-auto max-w-screen-md sm:text-left">
                 <h1 className="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl dark:text-white">sign the 
@@ -14,7 +14,7 @@ export default function PledgeOfWellness() {
                 <form action="#">
 
                 <div className="mx-auto mb-3 space-y-4 max-w-screen-sm flex-col sm:space-y-0">
-                    <p className="mb-2 text-left">By signing this pledge of wellness, I</p>
+                    <p className="mb-2 text-left">By signing the Yudae Wellness pledge, I</p>
                     <div className="w-full flex-row">
                     <div className="relative w-full">
                         <label htmlFor="fname" className=" hidden mb-2 text-sm font-medium text-white dark:text-gray-300">
@@ -39,7 +39,7 @@ export default function PledgeOfWellness() {
                         />
                     </div>
                     </div>
-                    <p className="mb-2 text-left">pledge to partake in, and practice each of, the following wellness activities for the remainder of my life starting on [todays date]</p>
+                    <p className="mb-2 text-left">agree to partake in, and practice each of, the following wellness activities for the remainder of my life starting on [todays date]</p>
                     <ul className="flex flex-wrap justify-start items-start mb-6 text-gray-900 dark:text-white">
                         <li className="pledge-item">
                             Engage in at least 30 minutes of activity each day of the week 
@@ -82,7 +82,7 @@ export default function PledgeOfWellness() {
                     </div>
                 </div>
 
-                <div className="mx-auto max-w-screen-sm text-sm text-left text-gray-500 newsletter-form-footer dark:text-gray-300">
+                <div className="mx-auto max-w-screen-sm text-sm text-left text-gray-900 newsletter-form-footer ">
                     We care about the protection of your data.  
                     <a href="#" className="font-medium text-primary-600 dark:text-primary-500 hover:underline">
                      Read our Privacy Policy</a>.

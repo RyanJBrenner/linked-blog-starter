@@ -30,7 +30,7 @@ const PostMeta = ({
             </>
           )}
           {(author && date) && <span className="text-gray-600"> · </span>}
-          {date && (<span className="text-gray-600"><DateFormatter dateString={date} /></span>)}
+          {date && (<span className="text-gray-600 text-xs"><DateFormatter dateString={date} /></span>)}
         </div>
       </div>
     </>

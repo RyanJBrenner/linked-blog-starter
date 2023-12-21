@@ -72,12 +72,12 @@ const Home = () => {
       <Search visible={searching} setVisible={setSearching}/>
 
 
-      <main className="grow bg-gray-200">
+      <main className="grow bg-gradient-to-l from-blue-200 to-blue-400">
 
         <Header /> {/* Include the Header component */}
         <section className="relative">
         
-        <div className="w-full mx-auto px-4 sm:px-6">
+        <div className="w-full mx-auto px-4 sm:px-6  ">
           <div className="pt-32 pb-12 md:pt-40 md:pb-20">
             <div className="text-center pb-12 md:pb-16">
               <h1 className="h1 text-6xl md:text-7xl font-extrabold leading-small mb-4" data-aos="zoom-y-out">
@@ -127,18 +127,6 @@ const Home = () => {
             </div>
             <div>
               <div className="relative flex justify-center items-center mb-8 max-w-3xl mx-auto" data-aos="zoom-y-out" data-aos-delay="450">
-                {/* <div className="flex flex-col justify-center shadow-sm">
-                  <Link href={"common_md/workouts-we-do-on-weekends"} passHref={true}>
-                    <video
-                      src="/assets/sunday-workout.mp4"
-                      className="rounded-lg h-96"
-                      autoPlay
-                      loop
-                      muted
-                      playsInline
-                    ></video>                
-                  </Link>
-                </div> */}
 
                   <section className='bg-transparent'>
                       <div className='grid mb-10 grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-0'>
@@ -153,7 +141,7 @@ const Home = () => {
                             </div>
 
                             <div className="ml-6 md:mt-0 lg:mt-6">
-                              <h3 className="md:ml-0 text-based font-bold from-transparent text-gray-700 sm:text-left text-left">
+                              <h3 className="md:ml-0 text-based font-bold from-transparent text-gray-900 sm:text-left text-left">
                                 {perk.name}
                               </h3>
                               <p className="mt-3 text-xs justify-center items-center text-gray-200 text-muted-foreground sm:text-left text-left">

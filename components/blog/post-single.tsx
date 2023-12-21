@@ -29,12 +29,14 @@ function PostSingle({
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           <div className="max-w-5xl mx-auto lg:max-w-none">
 
-            <article className="px-8 py-8 shadow-lg rounded-xl bg-white">
+            <article className="px-8 py-8 shadow-lg rounded bg-gray-100">
 
               {/* Article header */}
-              <header className=" mx-auto mb-2 left-0 shirnk-1">
+              <header className=" mx-auto mb-3 left-0 shirnk-1">
                 {/* Title */}
-                <h1 className="h1 w-50 text-left mb-4 ml-3 text-blue-400 text-5xl px-0 article-header">{title}</h1>
+                <h1 className="wrap-break text-left font-bold text-6xl tracking-tighter mb-4 ml-3 text-gray-900 px-0 article-header">
+                  {title}
+                </h1>
               </header>
 
               {/* Article content */}
@@ -59,7 +61,7 @@ function PostSingle({
 
                 {/* Sidebar */}
                 <hr className="my-10 border border-dashed lg:block mx-4"/>
-                <aside className="relative mt-10 md:block lg:w-64 md:ml-0 sm:ml-0 shrink-0 shadow-inner px-4 py-4 rounded-lg left-0">
+                <aside className="relative mt-10 md:block lg:w-64 md:ml-0 sm:ml-0 shrink-0 shadow-md px-4 py-4 bg-blue-400/10 rounded left-0">
                   <div>
                     <h4 className="text-sm font-reg leading-snug tracking-tight mb-4 text-slate-400">Related Articles</h4>
                     <div className="grid grid-cols-1 sm:grid-flow-row md:grid-cols-2 lg:grid-cols-1 gap-4">
