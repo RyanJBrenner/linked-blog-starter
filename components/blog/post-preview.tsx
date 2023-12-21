@@ -18,7 +18,7 @@ const PostPreview = ({
   slug,
 }: Props) => {
   return (
-    <article className="flex items-center py-4 border-b border-gray-200 justify-between w-full">
+    <article className="flex items-center py-4 border-b border-gray-200 justify-between">
       <div>
         <header>
           <h2 className="h4 mb-2 text-lg">

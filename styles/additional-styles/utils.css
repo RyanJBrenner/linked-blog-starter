@@ -27,13 +27,13 @@
   .note-preview {
     backdrop-filter: blur(12px); 
     display: none;
-    /* position: absolute; */
     top: 100%; /* Position the note preview just below the internal link */
     left: 0;
     max-width: 250px;
     max-height: 150px;
     overflow: hidden;
-    background-color: rgba(30, 59, 138, 0.592); /* Adjust the background color as needed */
+    background-color: rgba(30, 59, 138, 0.5);
+    background-image: linear-gradient(to bottom, (var(--tw-gradient-stops)));
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 0.5rem;
     z-index: 10;

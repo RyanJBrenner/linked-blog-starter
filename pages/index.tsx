@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
-import Footer from '../components/misc/footer';
 import Header from '../components/misc/header';
 import Layout from '../components/misc/layout';
 import Link from 'next/link';
 import Image from 'next/image';
 import TypewriterComponent from 'typewriter-effect';
 import Search from '../components/misc/search';
-import MaxWidthWrapper from '../components/misc/MaxWidthWrapper';
 import { CheckCircle, HeartHandshake, Bot } from 'lucide-react';
+import PostPreview from '../components/blog/post-preview';
 
 const Home = () => {
   const [searching, setSearching] = useState(false);
@@ -72,7 +71,7 @@ const Home = () => {
       <Search visible={searching} setVisible={setSearching}/>
 
 
-      <main className="grow bg-gradient-to-l from-blue-200 to-blue-400">
+      <main className="grow bg-gradient-to-l from-blue-200 to-blue-400 pb-20">
 
         <Header /> {/* Include the Header component */}
         <section className="relative">

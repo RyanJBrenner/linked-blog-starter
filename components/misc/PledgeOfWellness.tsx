@@ -3,7 +3,7 @@ import React from "react"
 export default function PledgeOfWellness() {
     return(
     <div className="relative w-full isolate mt-20 py-16 sm:py-24 lg:py-32">
-      <div className="max-w-3xl px-6 lg:px-8 bg-gradient-to-r from-blue-400 to-slate-100 rounded-xl shadow-xl focus:ring-1">
+      <div className="max-w-3xl md:w-full px-3 lg:px-8 bg-gradient-to-r from-blue-400 to-slate-100 rounded-xl shadow-xl focus:ring-1">
         <div className="py-8 px-4 mx-auto max-w-4/5 lg:py-16 lg:px-6">
             <div className="mx-auto max-w-screen-md sm:text-left">
                 <h1 className="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl dark:text-white">sign the 
