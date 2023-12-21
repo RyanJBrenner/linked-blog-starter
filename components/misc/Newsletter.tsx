@@ -2,14 +2,14 @@ import React from 'react';
 
 const Newsletter: React.FC = () => {
   return (
-    <><div className="relative isolate rounded-xl mt-20 bg-slate-900 pt-16 sm:py-24 lg:py-32">
+    <><div className="relative w-full isolate rounded-xl mt-20 bg-slate-900 pt-16 sm:py-24 lg:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
                   <div className="max-w-xl lg:max-w-lg">
                       <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Join our circle. <br />
                           <span className='text-sm font-thin'>(We keep it tight.)</span>
                       </h2>
-                      <p className="mt-4 text-md w-3/5 leading-8 text-gray-300">
+                      <p className="mt-4 text-md max-w-3/5 leading-8 text-gray-300">
                           Weekly newsletters based on the health and wellness information you care about.
                       </p>
                       <div className="mt-6 flex max-w-md gap-x-4">

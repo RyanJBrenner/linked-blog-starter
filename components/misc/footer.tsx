@@ -4,18 +4,18 @@ import PreviewLink from "./preview-link"
 
 const Footer = () => {
   return (
-    <footer className="w-auto p-4 bg-gray-900 md:p-8 lg:p-10 dark:bg-gray-800">
+    <footer className="w-full p-4 bg-gray-900 md:p-8 lg:p-10 dark:bg-gray-800">
       
 
-      <div className=" dark:bg-gray-900 mx-10 w-auto grid items-center justify-center">
+      <div className=" dark:bg-gray-900 mx-10 grid items-center justify-center">
         <PledgeOfWellness />
       </div>
       
-      <div className=" dark:bg-gray-900 mx-10 w-auto">
+      <div className=" dark:bg-gray-900 mx-10">
         <Newsletter />
       </div>
       
-      <div className="mx-auto mt-40 max-w-screen-xl text-center">
+      <div className="mx-auto mt-40 max-w-xl text-center">
         <p className="my-6 text-gray-500 dark:text-gray-400">Open-source library of over 200+ studies and documents designed for better health.</p>
         <ul className="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
             <li>

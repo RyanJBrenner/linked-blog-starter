@@ -77,7 +77,7 @@ const Home = () => {
         <Header /> {/* Include the Header component */}
         <section className="relative">
         
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="w-full mx-auto px-4 sm:px-6">
           <div className="pt-32 pb-12 md:pt-40 md:pb-20">
             <div className="text-center pb-12 md:pb-16">
               <h1 className="h1 text-6xl md:text-7xl font-extrabold leading-small mb-4" data-aos="zoom-y-out">
@@ -164,7 +164,7 @@ const Home = () => {
                         ))}
                       </div>
                       <div className="flex justify-center items-center my-10">
-                      <button className="absolute flex top-full items-center transform -translate-y-1/2 bg-white rounded-full mt-10 group p-4 shadow-sm block" aria-controls="modal">
+                      <button className="absolute flex top-full items-center transform -translate-y-1/2 bg-white rounded-full mt-10 group p-4 shadow-sm" aria-controls="modal">
                         <svg className="w-6 h-6 fill-current text-gray-400 group-hover:text-blue-500 shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                           <path d="M12 22c-5.523 0-10-4.477-10-10S6.477 2 12 2 22 6.477 22 12s-4.477 10-10 10zm0 2C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z"></path>
                           <path d="M10 17l6-5-6-5z"></path>
@@ -175,40 +175,14 @@ const Home = () => {
                       </div>
                   </section>
 
-                  <div className="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6" aria-hidden="true">
-                      <div
-                        className="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
-                        style={{
-                          clipPath:
-                            'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
-                          }
-                        }
-                      />
-                      <div className="absolute left-1/2 transform -translate-x-1/2 blur-3xl bottom-0 pointer-events-none -z-1" aria-hidden="true">
-                        <svg width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
-                          <defs>
-                            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="illustration-01">
-                              <stop stopColor="#FFF" offset="0%"></stop>
-                              <stop stopColor="#EAEAEA" offset="77.402%"></stop>
-                              <stop stopColor="#DFDFDF" offset="100%"></stop>
-                            </linearGradient>
-                          </defs>
-                          <g fill="url(#illustration-01)" fillRule="evenodd">
-                            <circle cx="1232" cy="128" r="128"></circle>
-                            <circle cx="155" cy="443" r="64"></circle>
-                          </g>
-                        </svg>
-                      </div>
-                    </div>
                   </div>
-
                 </div>
               </div>
             </div>
         </section>
       </main>         
     </Layout>
-  );
-};
+  )
+}
 
 export default Home;
