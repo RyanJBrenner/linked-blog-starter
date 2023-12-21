@@ -72,24 +72,11 @@ const Home = () => {
       <Search visible={searching} setVisible={setSearching}/>
 
 
-      <main className="grow bg-blue-200">
+      <main className="grow bg-gray-200">
+
         <Header /> {/* Include the Header component */}
         <section className="relative">
-        <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1" aria-hidden="true">
-          <svg width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="illustration-01">
-                <stop stopColor="#FFF" offset="0%"></stop>
-                <stop stopColor="#EAEAEA" offset="77.402%"></stop>
-                <stop stopColor="#DFDFDF" offset="100%"></stop>
-              </linearGradient>
-            </defs>
-            <g fill="url(#illustration-01)" fillRule="evenodd">
-              <circle cx="1232" cy="128" r="128"></circle>
-              <circle cx="155" cy="443" r="64"></circle>
-            </g>
-          </svg>
-        </div>
+        
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="pt-32 pb-12 md:pt-40 md:pb-20">
             <div className="text-center pb-12 md:pb-16">
@@ -122,9 +109,9 @@ const Home = () => {
                   
                 {/* Search button */}
                   <div>
-                    <button className="btn bg-white hover:bg-gray-200 lg:w-2/3 mb-4 sm:w-auto" aria-label="Search" onClick={() => setSearching(!searching)} disabled={searching}>
-                      <span className="text-gray-200 mr-2">Try searching "recipies" or "workout"</span>
-                      <svg className="w-3 h-3 fill-current text-gray-900" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <button className="btn bg-white hover:bg-white/70 lg:w-2/3 mb-4 sm:w-auto" aria-label="Search" onClick={() => setSearching(!searching)} disabled={searching}>
+                      <span className="text-gray-400 mr-2">Try searching "recipies" or "workout"</span>
+                      <svg className="ml-2 w-3 h-3 fill-current text-gray-400" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7 14c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7zM7 2C4.243 2 2 4.243 2 7s2.243 5 5 5 5-2.243 5-5-2.243-5-5-5zM15.707 14.293L13.314 11.9a8.019 8.019 0 01-1.414 1.414l2.393 2.393a.997.997 0 001.414 0 .999.999 0 000-1.414z" />
                       </svg>
                     </button>
@@ -182,20 +169,44 @@ const Home = () => {
                           <path d="M12 22c-5.523 0-10-4.477-10-10S6.477 2 12 2 22 6.477 22 12s-4.477 10-10 10zm0 2C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z"></path>
                           <path d="M10 17l6-5-6-5z"></path>
                         </svg>
-                        <span className="ml-3">Try for free</span>
+                        <span className="ml-3">sign the pledge of wellness</span>
                       </button>
 
                       </div>
                   </section>
 
+                  <div className="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6" aria-hidden="true">
+                      <div
+                        className="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
+                        style={{
+                          clipPath:
+                            'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+                          }
+                        }
+                      />
+                      <div className="absolute left-1/2 transform -translate-x-1/2 blur-3xl bottom-0 pointer-events-none -z-1" aria-hidden="true">
+                        <svg width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
+                          <defs>
+                            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="illustration-01">
+                              <stop stopColor="#FFF" offset="0%"></stop>
+                              <stop stopColor="#EAEAEA" offset="77.402%"></stop>
+                              <stop stopColor="#DFDFDF" offset="100%"></stop>
+                            </linearGradient>
+                          </defs>
+                          <g fill="url(#illustration-01)" fillRule="evenodd">
+                            <circle cx="1232" cy="128" r="128"></circle>
+                            <circle cx="155" cy="443" r="64"></circle>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
 
                 </div>
               </div>
             </div>
-          </div>
         </section>
-      </main>
-                      
+      </main>         
     </Layout>
   );
 };

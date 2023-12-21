@@ -9,3 +9,7 @@
 /* body {
     background-color: rgba(249, 249, 249, 0.696);
 } */
+
+.pledge-item{
+    @apply py-2 my-3;
+}

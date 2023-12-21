@@ -1,30 +1,34 @@
+import Newsletter from "./Newsletter"
+import PledgeOfWellness from "./PledgeOfWellness"
 import PreviewLink from "./preview-link"
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-50 border-t border-neutral-200">
-      <div className="container mx-auto px-5">
-        <div className="py-28 flex flex-col lg:flex-row items-center">
-          <h3 className="text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
-            <PreviewLink href="/statically-generated">AI generated</PreviewLink> with Next.js.
-          </h3>
-          <div className="grid grid-col-1 lg:grid-row justify-center items-center lg:pl-4 lg:w-1/2">
-            <a
-              href="#"
-              className="mx-3 rounded-full bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
-            >
-              Read Documentation
-            </a>
-            <a
-              href={`https://github.com/matthewwong525/linked-blog-starter`}
-              className="mx-11 mt-3 font-thin hover:underline"
-            >
-              View on GitHub
-            </a>
-          </div>
-        </div>
+    <footer className="w-auto p-4 bg-gray-900 md:p-8 lg:p-10 dark:bg-gray-800">
+      
+
+      <div className=" dark:bg-gray-900 mx-10 w-auto grid items-center justify-center">
+        <PledgeOfWellness />
       </div>
-    </footer>
+      
+      <div className=" dark:bg-gray-900 mx-10 w-auto">
+        <Newsletter />
+      </div>
+      
+      <div className="mx-auto mt-40 max-w-screen-xl text-center">
+        <p className="my-6 text-gray-500 dark:text-gray-400">Open-source library of over 200+ studies and documents designed for better health.</p>
+        <ul className="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
+            <li>
+                <a href="#" className="mr-4 hover:underline md:mr-6 ">About</a>
+            </li>
+            <li>
+                <a href="#" className="mr-4 hover:underline md:mr-6">Contact</a>
+            </li>
+        </ul>
+        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023-2024 <a href="#" className="hover:underline">Yudae Wellness</a>. All Rights Reserved.</span>
+      </div>
+
+  </footer>
   )
 }
 
