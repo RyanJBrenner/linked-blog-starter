@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from './footer'
 import Header from './header'
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 type Props = {
   children: React.ReactNode
