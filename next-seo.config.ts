@@ -30,12 +30,12 @@ const config: DefaultSeoProps = {
     {
       rel: "apple-touch-icon",
       sizes: "180x180",
-      href: "/favicon/apple-touch-icon.png"
+      href: "/public/assets/logo/Logo.png"
     },
     {
       rel: "shortcut icon",
       type: "image/png",
-      href: "/favicon/favicon.ico"
+      href: "/public/assets/logo/Logo.ico"
     },
     {
       rel: "manifest",
