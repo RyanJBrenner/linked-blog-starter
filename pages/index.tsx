@@ -72,7 +72,6 @@ const Home = () => {
 
 
       <main className="grow bg-gradient-to-l from-blue-200 to-blue-400 pb-20">
-
         <Header /> {/* Include the Header component */}
         <section className="relative">
         
@@ -117,8 +116,8 @@ const Home = () => {
                   </div>
                 
                   <div>
-                    <Link className="btn text-white bg-blue-300 hover:bg-blue-400 lg:w-1/2 mb-4 sm:w-auto sm:mb-0" href={"/home"} passHref={true} >
-                      What does Yudae mean?
+                    <Link legacyBehavior className="btn text-white bg-blue-300 hover:bg-blue-400 lg:w-1/2 mb-4 sm:w-auto sm:mb-0" href={"/home"} passHref={true} >
+                     <a>What does Yudae mean?</a>
                     </Link>
                   </div>
                 </div>
