@@ -18,24 +18,24 @@ const config: DefaultSeoProps = {
     {
       rel: 'icon',
       type: 'image/png',
-      href: '/public/assets/logo/Logo.png',
+      href: '/public/favicon/Favicon32x32_Blue.png',
       sizes: '32x32'
     },
     {
       rel: 'icon',
       type: 'image/png',
-      href: '/public/assets/logo/Logo.png',
+      href: '/public/favicon/Favicon16x16_blue.png',
       sizes: '16x16'
     },
     {
       rel: "apple-touch-icon",
       sizes: "180x180",
-      href: "/public/assets/logo/Logo.png"
+      href: "/public/favicon/Favicon192x192_Blue.png"
     },
     {
       rel: "shortcut icon",
       type: "image/png",
-      href: "/public/assets/logo/Logo.ico"
+      href: "/public/favicon/Favicon512x512_Blue.png"
     },
     {
       rel: "manifest",

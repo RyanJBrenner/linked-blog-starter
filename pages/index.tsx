@@ -9,6 +9,7 @@ import TypewriterComponent from 'typewriter-effect';
 import Search from '../components/misc/search';
 import { CheckCircle, HeartHandshake, Bot } from 'lucide-react';
 import PostPreview from '../components/blog/post-preview';
+import CookiesBanner from '../components/misc/CookiesBanner';
 
 const Home = () => {
   const [searching, setSearching] = useState(false);
@@ -42,7 +43,6 @@ const Home = () => {
   return (
     <Layout>
       <Head>
-        <link rel="stylesheet" href="https://use.typekit.net/csw7vwt.css"></link>
 
         {/* Metadata SEO for webpage */}
         <title>The Wiki of Wellness</title>
@@ -63,7 +63,7 @@ const Home = () => {
         />
         <meta
           property="og:image"
-          content="/public/logo.png"
+          content="/public/favicon/Favicon192x192_Blue.png"
         />
       </Head>
 
@@ -74,7 +74,7 @@ const Home = () => {
       <main className="grow bg-gradient-to-l from-blue-200 to-blue-400 pb-20">
         <Header /> {/* Include the Header component */}
         <section className="relative">
-        
+        <CookiesBanner />
         <div className="w-full mx-auto px-4 sm:px-6  ">
           <div className="pt-32 pb-12 md:pt-40 md:pb-20">
             <div className="text-center pb-12 md:pb-16">
@@ -161,6 +161,7 @@ const Home = () => {
                       </div>
                   </section>
 
+                   
                   </div>
                 </div>
               </div>
