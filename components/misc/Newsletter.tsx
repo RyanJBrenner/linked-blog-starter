@@ -26,8 +26,8 @@ const Newsletter: React.FC = () => {
                               placeholder="Enter your email" />
                           <button
                               type="submit"
-                              className="flex-none rounded-full bg-slate-200 px-5 py-3 text-sm font-semibold text-black shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-                          >
+                              className="ml-onclick-form flex-none rounded-full bg-white/20 backdrop-blue-lg px-5 py-3 text-sm text-black shadow-sm hover:bg-gradient-to-br from-white/60 to-white/30 hover:backdrop-blur-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 transition-all ease-in-out"
+                                >
                               Subscribe
                           </button>
                       </div>
@@ -67,7 +67,7 @@ const Newsletter: React.FC = () => {
                   }} />
           </div>
       </div>
-          </>
+    </>
   );
 };
 

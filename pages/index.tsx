@@ -4,12 +4,9 @@ import Head from 'next/head';
 import Header from '../components/misc/header';
 import Layout from '../components/misc/layout';
 import Link from 'next/link';
-import Image from 'next/image';
 import TypewriterComponent from 'typewriter-effect';
 import Search from '../components/misc/search';
 import { CheckCircle, HeartHandshake, Bot } from 'lucide-react';
-import PostPreview from '../components/blog/post-preview';
-import CookiesBanner from '../components/misc/CookiesBanner';
 
 const Home = () => {
   const [searching, setSearching] = useState(false);
@@ -74,7 +71,6 @@ const Home = () => {
       <main className="grow bg-gradient-to-l from-blue-200 to-blue-400 pb-20">
         <Header /> {/* Include the Header component */}
         <section className="relative">
-        <CookiesBanner />
         <div className="w-full mx-auto px-4 sm:px-6  ">
           <div className="pt-32 pb-12 md:pt-40 md:pb-20">
             <div className="text-center pb-12 md:pb-16">

@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from './footer'
 import Header from './header'
+import { ToastContainer, toast } from "react-toastify";
 
 
 type Props = {
@@ -15,6 +16,18 @@ const Layout = ({ children }: Props) => {
         {children}
       </main>
       <Footer />
+      <ToastContainer
+        position="bottom-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+        />
     </div>
   )
 }

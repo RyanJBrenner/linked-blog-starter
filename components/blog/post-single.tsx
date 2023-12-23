@@ -27,9 +27,9 @@ function PostSingle({
     <section className='w-full bg-gray-900'>
       <div className="w-full bg-gray-900/2 z-2 mx-auto sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
-          <div className="max-w-5xl mx-auto lg:max-w-none">
+          <div className="mx-0 lg:max-w-none">
 
-            <article className="mx-4 pt-10 shadow-lg rounded bg-white/95 backdrop-blur-xl">
+            <article className="pt-10 min-h-screen w-full mx-0 shadow-lg rounded bg-white/95 backdrop-blur-xl">
 
               {/* Article header */}
               <header className="mb-3 shirnk-1">

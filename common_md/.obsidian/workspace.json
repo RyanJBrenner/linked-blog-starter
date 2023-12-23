@@ -102,9 +102,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b95ac44b7589532f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Redit-Asks-How-To-Be-Still.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -170,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "weight-loss/weight-loss.md",
+                "file": "Redit-Asks-How-To-Be-Still.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "weight-loss/weight-loss.md",
+                "file": "Redit-Asks-How-To-Be-Still.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "weight-loss/weight-loss.md"
+                "file": "Redit-Asks-How-To-Be-Still.md"
               }
             }
           }
@@ -230,8 +243,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1f72ff9516cdacb5",
+  "active": "b95ac44b7589532f",
   "lastOpenFiles": [
+    "weight-loss/weight-loss.md",
+    "Redit-Asks-How-To-Be-Still.md",
+    "blog",
     "weight-loss/drugs/eli-lilly-zepbound-weight-loss-drug.md",
     "mental-health/mental-health.md",
     "home.md",
@@ -242,7 +258,6 @@
     "other/accepted-markdown-metadata.md",
     "other",
     "weight-loss/drugs/eli-lilly-zepbound-weight-loss-drug 1.md",
-    "weight-loss/weight-loss.md",
     "weight-loss/drugs/eli-lilly-zepbound-weight-loss-drug-fda-approval.md",
     "eli-lilly-zepbound-weight-loss-drug.md",
     "drugs",
@@ -265,10 +280,8 @@
     "other/reinventing-the-wheel.md",
     "fitness/upper-body-strength.md",
     "attachments/Ryan-Brenner.png",
-    "home (Conflicted copy from Ryan’s MacBook Pro on 2023-12-15).md",
     "6b68d825ee54b325268a9dc7757753ea._gstmp",
     "fitness",
-    "assets",
     "attachments/SVG/Asset 5.svg"
   ]
 }
