@@ -71,7 +71,7 @@ type Params = {
 
 export async function getStaticProps({ params }: Params) {
   const slug = path.join(...params.slug)
-  const post = await getPostBySlug(slug, [
+  const post = getPostBySlug(slug, [
     'title',
     'excerpt',
     'date',
@@ -81,10 +81,10 @@ export async function getStaticProps({ params }: Params) {
     'ogImage',
   ])
   const content = await markdownToHtml(post.content || '', slug)
-  const linkMapping = await getLinksMapping()
+  const linkMapping = getLinksMapping()
   const backlinks = Object.keys(linkMapping).filter(k => linkMapping[k].includes(post.slug) && k !== post.slug)
   const backlinkNodes = Object.fromEntries(await Promise.all(backlinks.map(async (slug) => {
-    const post = await getPostBySlug(slug, ['title', 'excerpt']);
+    const post = getPostBySlug(slug, ['title', 'excerpt']);
     return [slug, post]
   })));
 
@@ -101,13 +101,14 @@ export async function getStaticProps({ params }: Params) {
 
 export async function getStaticPaths() {
   try {
-    const posts = await getAllPosts(['slug']);
-    const paths = posts.map((post) => ({ params: { slug: [post.slug] } }));
+    const posts = getAllPosts(['slug']);
+    const paths = posts.map((post) => ({ params: { slug: post.slug.split(path.sep) } }));
     return { paths, fallback: false };
   } catch (error) {
     console.error("Error in getStaticPaths:", error);
     throw error;
   }
 }
+
 
 
