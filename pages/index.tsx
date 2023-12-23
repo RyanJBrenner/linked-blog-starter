@@ -24,9 +24,9 @@ const Home = () => {
     description: "Regular updates & info maintenance by a pannel of certified educators."
   },
    { 
-    name:'14% for Health',
+    name:'Pledge of Wellness',
     Icon: HeartHandshake,
-    description: "We pledge 14% of annual sales to go towards community health progams."
+    description: "We pledge 27% of annual sales to go towards community health progams."
   },
   ]
 
