@@ -100,15 +100,17 @@ export async function getStaticProps({ params }: Params) {
 }
 
 export async function getStaticPaths() {
-  const posts = await getAllPosts(['slug'])
-  return {
-    paths: posts.map((post) => {
-      return {
-        params: {
-          slug: post.slug.split(path.sep),
-        },
-      } 
-    }),
-    fallback: false,
+  try {
+    const posts = await getAllPosts(['slug']);
+    return {
+      paths: posts.map((post) => ({
+        params: { slug: post.slug.split(path.sep) },
+      })),
+      fallback: false,
+    };
+  } catch (error) {
+    console.error("Error in getStaticPaths:", error);
+    throw error;
   }
 }
+
