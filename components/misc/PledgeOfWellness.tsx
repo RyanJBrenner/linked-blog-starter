@@ -103,7 +103,7 @@ export default function PledgeOfWellness() {
                     <label htmlFor="last_name" className="hidden mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
                     Last name
                     </label>
-                    <input className="block p-3 my-3 pl-10 w-full text-sm text-gray-900 bg-transparent rounded-full border-b border-gray-900 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 placeholder-gray-900/80 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" 
+                    <input className="block p-3 my-3 mb-5 pl-10 w-full text-sm text-gray-900 bg-transparent rounded-full border-b border-gray-900 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 placeholder-gray-900/80 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" 
                     placeholder="Last name" 
                     type="text" 
                     id="last_name" 
@@ -112,27 +112,27 @@ export default function PledgeOfWellness() {
                     />
                 </div>
                 </div>
-                <p className="mb-2 text-left">agree to partake in, and practice each of, the following wellness activities for the remainder of my life starting on [todays date]</p>
-                <ul className="flex flex-wrap justify-start items-start mb-6 text-gray-900 dark:text-white font-bold">
-                    <li className="pledge-item">
+                <p className="mt-5 text-left">agree to partake in, and practice each of, the following wellness activities for the remainder of my life starting on [todays date]</p>
+                <ul className="flex flex-wrap justify-start items-start text-gray-900 dark:text-white font-bold">
+                    <li className="pledge-item my-5">
                         Engage in at least 30 minutes of activity each day of the week 
                     </li>
-                    <li className="pledge-item">
+                    <li className="pledge-item my-5">
                         Actively pursure healthy & nurishing food as best I can afford
                     </li>
-                    <li className="pledge-item">
+                    <li className="pledge-item my-5">
                         Spend a minimum of 2 minutes practicing meditation daily
                     </li>
-                    <li className="pledge-item">
+                    <li className="pledge-item my-5">
                         Attend at least 1 community wellness event every week
                     </li>
-                    <li className="pledge-item">
+                    <li className="pledge-item my-5">
                         Spend time writing 3-5 things I am greateful for every day 
                     </li>
                 </ul>
-                <p className="flex-pretty justify-start">Because I am dedicated to my health and life goals, I give Yudae permission to hold me accountable via email at:</p>
+                <p className="flex-pretty mb-5 justify-start">Because I am dedicated to my health and life goals, I give Yudae permission to hold me accountable via email at:</p>
                 <div className="relative w-full">
-                <label htmlFor="email" className="hidden mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                <label htmlFor="email" className="hidden text-sm font-medium text-gray-900 dark:text-gray-300">
                     Email address
                 </label>
                 <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
@@ -141,7 +141,7 @@ export default function PledgeOfWellness() {
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
                     </svg>
                 </div>
-                <input className="block p-3 my-3 pl-10 w-full text-sm text-gray-900 bg-transparent rounded-full border-b border-gray-900 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 placeholder-gray-900/80 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" 
+                <input className="block p-3 my-5 pl-10 w-full text-sm text-gray-900 bg-transparent rounded-full border-b border-gray-900 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 placeholder-gray-900/80 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" 
                     placeholder="Enter your email" 
                     type="email" 
                     id="email" 
