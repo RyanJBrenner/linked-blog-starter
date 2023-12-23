@@ -38,13 +38,16 @@ export default function Post({ post, backlinks }: Props) {
               title: post.title,
               description,
               type: 'article',
-              images: [{
-                url: (post.ogImage?.url) ? post.ogImage.url : "/public/assets/logo/Logo.png",
-                width: (post.ogImage?.url) ? null: 512,
-                height: (post.ogImage?.url) ? null: 512,
-                type: null
-              }]
+              images: [
+                {
+                  url: post.ogImage?.url || "/public/assets/logo/Logo.png",
+                  width: post.ogImage?.url ? null : 512,
+                  height: post.ogImage?.url ? null : 512,
+                  type: null,
+                },
+              ],
             }}
+            
           />
           <PostSingle
             title={post.title}
