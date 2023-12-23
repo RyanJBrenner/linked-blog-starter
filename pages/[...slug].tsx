@@ -70,7 +70,7 @@ type Params = {
 }
 
 export async function getStaticProps({ params }: Params) {
-  const slug = path.join(...params.slug)
+  const slug = path.join(...params.slug);
   const post = getPostBySlug(slug, [
     'title',
     'excerpt',
@@ -79,14 +79,20 @@ export async function getStaticProps({ params }: Params) {
     'author',
     'content',
     'ogImage',
-  ])
-  const content = await markdownToHtml(post.content || '', slug)
-  const linkMapping = getLinksMapping()
-  const backlinks = Object.keys(linkMapping).filter(k => linkMapping[k].includes(post.slug) && k !== post.slug)
-  const backlinkNodes = Object.fromEntries(await Promise.all(backlinks.map(async (slug) => {
-    const post = getPostBySlug(slug, ['title', 'excerpt']);
-    return [slug, post]
-  })));
+  ]);
+  const content = await markdownToHtml(post.content || '', slug);
+  const linkMapping = getLinksMapping(); // Make sure getLinksMapping is working correctly
+  const backlinks = Object.keys(linkMapping).filter(
+    (k) => linkMapping[k].includes(post.slug) && k !== post.slug
+  );
+  const backlinkNodes = Object.fromEntries(
+    await Promise.all(
+      backlinks.map(async (slug) => {
+        const backlinkPost = getPostBySlug(slug, ['title', 'excerpt']);
+        return [slug, backlinkPost];
+      })
+    )
+  );
 
   return {
     props: {
@@ -96,8 +102,9 @@ export async function getStaticProps({ params }: Params) {
       },
       backlinks: backlinkNodes,
     },
-  }
+  };
 }
+
 
 export async function getStaticPaths() {
   try {
