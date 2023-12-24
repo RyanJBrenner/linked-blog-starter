@@ -4,7 +4,7 @@ import matter from 'gray-matter'
 import { getFilesRecursively } from './modules/find-files-recusively.mjs'
 import { getMDExcerpt } from './markdownToHtml'
 
-const mdDir = path.join(process.cwd(), process.env.COMMON_MD_DIR)
+const mdDir = path.join(process.cwd(), process.env.NEXT_PUBLIC_COMMON_MD_DIR)
 
 export function getPostBySlug(slug: string, fields: string[] = []) {
   const realSlug = slug.replace(/\.md(?:#[^\)]*)?$/, '')
@@ -85,7 +85,13 @@ export function getSlugFromHref (currSlug: string, href: string) {
 
 export function updateMarkdownLinks(markdown: string, currSlug: string) {
   // remove `.md` from links
-  markdown = markdown.replaceAll(/(\[[^\[\]]+\]\([^\(\)]+)(\.md(?:#[^\)]*)?)(\))/g, "$1$3");
+  markdown = markdown.replaceAll(/(\[[^\[\]]+\]\([^\(\)]+)(\.md(?:#[^\)]*)?)(\))/g, (match, m1, m2, m3) => {
+    // Check if capturing groups are present
+    if (typeof m1 !== 'undefined' && typeof m3 !== 'undefined') {
+      return m1 + m3; // Replace with the desired logic for capturing groups
+    }
+    return match; // If capturing groups are not present, return the original match
+  });
 
   // update image links
   markdown = markdown.replaceAll(/(\[[^\[\]]*\]\()([^\(\)]+)(\))/g, (m, m1, m2: string, m3) => {
@@ -94,7 +100,7 @@ export function updateMarkdownLinks(markdown: string, currSlug: string) {
     if (!m2.startsWith(slugDir)) {
       relLink = path.join(slugDir, m2)
     }
-    const relAssetDir = path.relative('./public', process.env.MD_ASSET_DIR)
+    const relAssetDir = path.relative('./public', process.env.NEXT_PUBLIC_MD_ASSET_DIR)
     const fileSlugRel = decodeURI(path.join(mdDir, relLink))
     const fileSlugAbs = decodeURI(path.join(mdDir, m2))
     if (fs.existsSync(fileSlugRel)) {
@@ -106,5 +112,7 @@ export function updateMarkdownLinks(markdown: string, currSlug: string) {
     }
     return m;
   });
-  return markdown
+
+  return markdown;
 }
+

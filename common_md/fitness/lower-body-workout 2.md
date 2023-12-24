@@ -1,55 +1,63 @@
 ---
-title: Lower Body Workout
+title: Lower Body At-Home Strength Workout
 excerpt: Lower body workout consisting of warm-up, CNS ramp up, squats for our main block A, then deadlifts, lunges, core, and some bonus workouts snacks to round it off.
 ---
 
 ---
 
-# Lower Body Workout
+# About this lower body strength workout:
 
 This lower body workout consists of a 6 exercise warm-up, followed by a quick kettlebell inspired CNS ramp up. 
 
 For our main blocks we start with squats for block A, then we jump into deadlifts, some lunges, a bit of core, and end with some bonus workouts snacks.
 
-**Warm up** 
+## Warm-Up
 
-- bird dog (20 reps)
-- glute bridge march (20 reps)
-- hip opener (right - 10 reps)
-- hip opener (left - 10 reps)
-- chest swings (10 reps)
-- iso squat hold (30 sec)
+- **Bird Dog:** 20 reps
+- **Glute Bridge March:** 20 reps
+- **Hip Opener (Right):** 10 reps
+- **Hip Opener (Left):** 10 reps
+- **Chest Swings:** 10 reps
+- **Iso Squat Hold:** 30 seconds
 
-**CNS Ramp Up**
-3 sets
+## Central Nervous System (CNS) Ramp-Up
+
+**3 Sets:**
 
 - 5 Deadlift + 5 Swing + 5 Goblet Squats (single kettlebell)
-- Vertical Jump (5 reps)
+- Vertical Jump: 5 reps
 
-**Block A**
-5 sets
+## Strength Building: Block A
 
-- Back Squat (5 reps)
+**5 Sets:**
 
-**Block B**
-3 sets
+- Back Squat: 5 reps
 
-- Offset Romanian Deadlift - R (8 reps)
-- Offset Romanian Deadlift - L (8 reps)
+## Strength Building: Block B
 
-**Block C**
-3 sets 
+**3 Sets:**
 
-- Walking Lunges Goblet Hold (16 reps)
+- Offset Romanian Deadlift - Right: 8 reps
+- Offset Romanian Deadlift - Left: 8 reps
+
+## Strength Building: Block C
+
+**3 Sets:**
+
+- Walking Lunges Goblet Hold: 16 reps
+
+## Core Strengthening
+
+**3 Sets:**
+
+- Weighted V Up: 10 reps
+- Toe Taps: 10 reps
+
+## Additional Exercises ([Exercise Snacks](what-are-exercise-snacks.md))
+
+**3 Sets:**
+
+- Calves: 12 reps
 
 
-**Core** 
-3 sets
-
-- Weighted V Up (10 reps)
-- Toe Taps (10 reps)
-
-**[Snacks](what-are-exercise-snacks.md)**
-3 sets
-
-- Calves (12 reps)
+*Note: Consult with a fitness professional before starting any new workout routine.*
