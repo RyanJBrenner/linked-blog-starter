@@ -3,7 +3,7 @@ import { DefaultSeoProps } from "next-seo";
 const description = "Discover the wiki of wellness."
 // See https://www.npmjs.com/package/next-seo for more options
 const config: DefaultSeoProps = {
-  title: 'Wiki of Wellness',
+  title: `Wiki of Wellness`,
   titleTemplate: "Wiki of Wellness | Yudae",
   defaultTitle: "Wiki of Wellness | Yudae | Austin, TX",
   description: 'Discover the wiki of wellness by Yudae. A complete open-source repository of health & wellness information. Free today and free forever, just click to get started.',
@@ -11,7 +11,7 @@ const config: DefaultSeoProps = {
   openGraph: {
     type: 'website',
     locale: 'en_IE',
-    title: '%s | Yudae | Austin, TX',
+    title: `%s | Yudae | Austin, TX`,
     description: 'Discover the wiki of wellness by Yudae. A complete open-source repository of health & wellness information. Free today and free forever, just click to get started.',
   },
   additionalLinkTags: [

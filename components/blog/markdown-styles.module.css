@@ -8,11 +8,12 @@
   margin: 0;
   color: #0f1114;
   /* background-color: #ffffff; */
-  font-family: "neutronic", sans-serif;;
+  /* font-family: "neutronic", sans-serif;; */
   font-size: 16px;
   line-height: 1.5;
   word-wrap: break-word;
   text-wrap: pretty;
+  max-width: 600px;
 }
 
 .markdown-body .octicon {
@@ -150,7 +151,7 @@
 .markdown-body [type=button],
 .markdown-body [type=reset],
 .markdown-body [type=submit] {
-  -webkit-appearance: button;
+  appearance: button;
 }
 
 .markdown-body [type=button]::-moz-focus-inner,
@@ -178,7 +179,7 @@
 }
 
 .markdown-body [type=search] {
-  -webkit-appearance: textfield;
+  appearance: textfield;
   outline-offset: -2px;
 }
 
