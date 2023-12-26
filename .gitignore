@@ -2,6 +2,7 @@
 
 # common_md 
 ./common_md/templates
+./common_md/other
 
 # dependencies
 /node_modules
