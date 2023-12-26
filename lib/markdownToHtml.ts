@@ -21,7 +21,7 @@ export async function markdownToHtml(markdown: string, currSlug: string) {
   const linkNodeMapping = new Map<string, Element>();
   for (const l of links) {
     const post = getPostBySlug(l, ['title', 'content']);
-    const node = createNoteNode(post.title, post.content)
+    const node = createNoteNode(post.title, post.content, post.excerpt)
     linkNodeMapping[l] = node
   }
 
@@ -48,9 +48,10 @@ export function getMDExcerpt(markdown: string, length: number = 500) {
   return text.slice(0, length).trim();
 }
 
-export function createNoteNode(title: string, content: string) {
+export function createNoteNode(title: string, content: string, excerpt: string) {
   const mdContentStr = getMDExcerpt(content);
-  const htmlStr = renderToStaticMarkup(NotePreview({ title, content: mdContentStr }))
+  const mdExcerptStr = getMDExcerpt(excerpt);
+  const htmlStr = renderToStaticMarkup(NotePreview({ title, excerpt: mdExcerptStr, content: mdContentStr }))
   const noteNode = fromHtml(htmlStr);
   return noteNode;
 }

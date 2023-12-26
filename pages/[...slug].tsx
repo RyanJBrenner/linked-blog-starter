@@ -14,10 +14,11 @@ type Items = {
 }
 
 type Props = {
-  post: PostType
-  slug: string
-  backlinks: { [k: string]: Items }
-}
+  post: PostType;
+  slug: string;
+  backlinks: { [k: string]: { title: string; excerpt: string; content: string } };
+};
+
 
 export default function Post({ post, backlinks }: Props) {
   const router = useRouter()

@@ -6,7 +6,7 @@ type Props = {
     [k: string]: {
       title: string;
       excerpt: string;
-      content: string;
+      content?: string;
     };
   };
 };
@@ -28,7 +28,7 @@ const Backlinks = ({ backlinks }: Props) => {
               <NotePreview
                 title={post.title}
                 excerpt={post.excerpt}
-                content={post.content}
+                content={post.content || ""} // Use an empty string if content is undefined
               />
             </a>
           </Link>
@@ -39,3 +39,4 @@ const Backlinks = ({ backlinks }: Props) => {
 };
 
 export default Backlinks;
+
