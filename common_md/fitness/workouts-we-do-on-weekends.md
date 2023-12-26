@@ -16,10 +16,10 @@ Check out some workouts here to get exercise tutorials and we typically perform.
 
 ### Strength Training
 
-- [Low Body Strength](./fitness/lower-body-workout)
-- [Lower Body Strength 2](./fitness/lower-body-workout-2)
-- [Upper Body Strength](./fitness/upper-body-workout)
-- [Upper Body Strength 2](./fitness/upper-body-workout-2)
-- [Calisthenics](./fitness/calisthenics-workout)
-- [Weekend Conditioning](./fitness/weekend-conditioning-christmas)
+- [Low Body Strength](../fitness/lower-body-workout)
+- [Lower Body Strength 2](../fitness/lower-body-workout-2)
+- [Upper Body Strength](../fitness/upper-body-workout)
+- [Upper Body Strength 2](../fitness/upper-body-workout-2)
+- [Calisthenics](../fitness/calisthenics-workout)
+- [Weekend Conditioning](../fitness/weekend-conditioning-christmas)
 

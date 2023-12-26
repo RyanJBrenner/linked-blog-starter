@@ -3,8 +3,6 @@ title: Lower Body At-Home Strength Workout
 excerpt: Lower body workout consisting of warm-up, CNS ramp up, squats for our main block A, then deadlifts, lunges, core, and some bonus workouts snacks to round it off.
 ---
 
----
-
 # About this lower body strength workout:
 
 This lower body workout consists of a 6 exercise warm-up, followed by a quick kettlebell inspired CNS ramp up. 

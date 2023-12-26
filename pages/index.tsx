@@ -121,41 +121,39 @@ const Home = () => {
             </div>
             <div>
               <div className="relative flex justify-center items-center mb-8 max-w-3xl mx-auto" data-aos="zoom-y-out" data-aos-delay="450">
-
-                  <section className='bg-transparent'>
-                      <div className='grid mb-10 grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-0'>
-                        {perks.map((perk) => (
-                          <div 
-                          key={perk.name} 
-                          className='flex items-center justfy-center text-center md:flex md:items-start md:text-left lg-block lg:text-center'>
-                            <div className='md:flex-shrink-0 flex justify-center'>
-                              <div className="h-16 w-16 flex items-center justify-center rounded-full bg-blue-100 text-blue-500">
-                                {<perk.Icon className='w-1/3 h-1/3' />}
-                              </div>
-                            </div>
-
-                            <div className="ml-6 md:mt-0 lg:mt-6">
-                              <h3 className="md:ml-0 text-based font-bold from-transparent text-gray-900 sm:text-left text-left">
-                                {perk.name}
-                              </h3>
-                              <p className="mt-3 text-xs justify-center items-center text-gray-200 text-muted-foreground sm:text-left text-left">
-                                {perk.description}
-                              </p>
+                <section className='bg-transparent'>
+                    <div className='grid mb-10 grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-0'>
+                      {perks.map((perk) => (
+                        <div 
+                        key={perk.name} 
+                        className='flex items-center justfy-center text-center md:flex md:items-start md:text-left lg-block lg:text-center'>
+                          <div className='md:flex-shrink-0 flex justify-center'>
+                            <div className="h-16 w-16 flex items-center justify-center rounded-full bg-blue-100 text-blue-500">
+                              {<perk.Icon className='w-1/3 h-1/3' />}
                             </div>
                           </div>
-                        ))}
-                      </div>
-                      <div className="flex justify-center items-center my-10">
-                      <button className="absolute flex top-full items-center transform -translate-y-1/2 bg-white rounded-full mt-10 group p-4 shadow-sm" aria-controls="modal">
-                        <svg className="w-6 h-6 fill-current text-gray-400 group-hover:text-blue-500 shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M12 22c-5.523 0-10-4.477-10-10S6.477 2 12 2 22 6.477 22 12s-4.477 10-10 10zm0 2C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z"></path>
-                          <path d="M10 17l6-5-6-5z"></path>
-                        </svg>
-                        <span className="ml-3">sign the pledge of wellness</span>
-                      </button>
 
-                      </div>
-                  </section>
+                          <div className="ml-6 md:mt-0 lg:mt-6">
+                            <h3 className="md:ml-0 text-based font-bold from-transparent text-gray-900 sm:text-left text-left">
+                              {perk.name}
+                            </h3>
+                            <p className="mt-3 text-xs justify-center items-center text-gray-200 text-muted-foreground sm:text-left text-left">
+                              {perk.description}
+                            </p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                    <div className="flex justify-center items-center my-10">
+                    <button className="absolute flex top-full items-center transform -translate-y-1/2 bg-white rounded-full mt-10 group p-4 shadow-sm" aria-controls="modal">
+                      <svg className="w-6 h-6 fill-current text-gray-400 group-hover:text-blue-500 shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 22c-5.523 0-10-4.477-10-10S6.477 2 12 2 22 6.477 22 12s-4.477 10-10 10zm0 2C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z"></path>
+                        <path d="M10 17l6-5-6-5z"></path>
+                      </svg>
+                      <span className="ml-3">sign the pledge of wellness</span>
+                    </button>
+                  </div>
+                </section>
 
                    
                   </div>
@@ -163,7 +161,7 @@ const Home = () => {
               </div>
             </div>
         </section>
-      </main>         
+      </main> 
     </Layout>
   )
 }

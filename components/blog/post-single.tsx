@@ -65,11 +65,12 @@ function PostSingle({
                   <div>
                     <h4 className="text-sm font-reg leading-snug tracking-tight mb-4 text-blue-200">Related Articles</h4>
                     <div className="grid grid-cols-1 justify-center items-center sm:justify-center sm:items-start sm:grid-flow-row sm:grid-template sm:grid-rows-2 md:grid-cols-flex lg:grid-cols-1 gap-4">
-                      {
-                        (Object.keys(backlinks).length > 0) && (
-                            <Backlinks backlinks={backlinks} />
-                        )
-                      }
+                    {
+                      (
+                        Object.keys(backlinks).length > 0) && (
+                        <Backlinks backlinks={backlinks} />
+                      )
+                    }
                     </div>
                   </div>
                 </aside>

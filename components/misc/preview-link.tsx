@@ -14,7 +14,7 @@ const PreviewLink = ({ href, children }: Props) => {
   return (
     <span className="internal-link-container">
       <Link legacyBehavior as={href} href="/[...slug]" className="internal-link"><a>{children}</a></Link>
-      {data && (<NotePreview title={data.title} content={data.excerpt} />)}
+      {data && (<NotePreview title={backlink.title} content={data.content} excerpt={""}/>)}
     </span>
   );
 }

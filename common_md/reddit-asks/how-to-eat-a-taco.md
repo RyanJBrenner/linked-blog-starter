@@ -1,5 +1,6 @@
 ---
 title: "Part 2: Reddit Asks: What is the most optimal way to eat a taco??"
+excerpt: "The answer is directly linked to your hsoulder mobility. The heigher you can get the elbow, the easier it is to eat a taco without making a mess all over yourself. Click to read more and get the full guide on how to eat a taco optimally."
 ---
 
 ## We will cover:
@@ -18,7 +19,7 @@ title: "Part 2: Reddit Asks: What is the most optimal way to eat a taco??"
 ![taco Reddit question on purple background](../attachments/Tacos/taco-reddit-question.png)
 
 ## <a id="the-answer">The Answer:</a> 
-[![answering taco Reddit question on YouTube](http://img.youtube.com/vi/3SospCUZpl8/0.jpg)](https://www.youtube.com/shorts/3SospCUZpl8)
+[![answering taco Reddit question on YouTube](http://img.youtube.com/vi/3SospCUZpl8/0.jpg)](https://www.youtube.com/embed/3SospCUZpl8)
 
 
 ## <a id="the-extra">The Extra:</a>  

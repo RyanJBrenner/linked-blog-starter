@@ -21,7 +21,7 @@ type Props = {
 
 export default function Post({ post, backlinks }: Props) {
   const router = useRouter()
-  const description = post.excerpt.slice(0, 155)
+  const description = post.excerpt.slice(0, 300)
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />
   }
