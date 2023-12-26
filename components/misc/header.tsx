@@ -24,7 +24,7 @@ const Header = () => {
     };
 
   return (
-    <header className={`fixed w-full z-30 md:bg-gradient-to-r from-white/30 to-white/20 transition duration-300 ease-in-out ${!top && 'bg-gradient-to-r from-blue-900/30 to-blue-900/30 backdrop-blur-md shadow-lg'}`}>
+    <header className={`fixed w-full z-30 md:bg-gradient-to-r from-white/0 to-white/0 transition duration-300 ease-in-out ${!top && 'bg-gradient-to-r from-blue-900/30 to-blue-900/30 backdrop-blur-md shadow-lg'}`}>
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           <button className="bg-blue-500 btn-sm flex justify-center items-center rounded-sm px-2 py-1">

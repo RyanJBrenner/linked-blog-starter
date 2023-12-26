@@ -6,8 +6,13 @@ date: 2023-12-15
 
 # Diet & Nutrition
 
-#### Discover our top Diet & Nutrition articles
-[The Green Giant](the-green-giant).
+## Discover some of our top nutrition recipes:
+
+[The Green Giant](../diet-nutrition/the-green-giant.md)
+
+[Super Veggie Salad](../diet-nutrition/super-veggie.md)
+
+[Healthy Dinner Recipes](../diet-nutrition/healthy-dinner-recipes.md)
 
 
 

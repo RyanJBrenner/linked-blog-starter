@@ -2,15 +2,9 @@
 title: Brian Johnson's Super Veggie Salad
 excerpt: Learn how to make Brian Johnson's Super Veggie Salad. Discover Brian Johnson's health routine. 
 date: 2023-12-15
-Author: "[[Ryan-Brenner.png]]"
-name: Ryan Brenner
-url: "[[Ryan-Brenner.png]]"
-ogImage: "[[Ryan-Brenner.png]]"
 ---
 
-# Brian Johnson's Super Veggie Salad
-
-#### How to make [Brian Johnson's](../health-optimization/brian-johnsons-routine) Super Veggie Salad
+# How to make [Bryan Johnson's](../health-optimization/bryan-johnsons-routine.md) Super Veggie Salad
 **378 calories**
 - 6.8 g fat
 - 64 g carbs
