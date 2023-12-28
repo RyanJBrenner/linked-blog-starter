@@ -1,18 +1,25 @@
-import React from 'react'
-import Footer from './footer'
-import Header from './header'
-import { ToastContainer, toast } from "react-toastify";
+// layout.tsx
 
+import React from 'react';
+import Footer from './footer';
+import Header from './header';
+import { NextSeo } from 'next-seo';
+import { DefaultSeoProps } from 'next-seo';
+import { generateSeoConfig } from 'next-seo.config';
+import { ToastContainer } from 'react-toastify';
 
 type Props = {
-  children: React.ReactNode
-}
+  children: React.ReactNode;
+  seoConfig?: DefaultSeoProps; // Optional SEO configuration
+};
 
-const Layout = ({ children }: Props) => {
+const Layout = ({ children, seoConfig }: Props) => {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       <Header />
+      <link rel="stylesheet" type="text/css" href="/print.css" media="print" />
       <main className="grow overflow-visible">
+        <NextSeo {...seoConfig} />
         {children}
       </main>
       <Footer />

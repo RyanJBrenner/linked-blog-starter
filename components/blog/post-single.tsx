@@ -1,8 +1,13 @@
+// post-single.tsx
+
 import React from 'react';
 import Author from '../../interfaces/author';
 import Backlinks from '../misc/backlinks';
 import PostBody from './post-body';
 import PostMeta from './post-meta';
+import PrintButton from '../misc/PrintButton';
+import { NextSeo } from 'next-seo';
+import { generateSeoConfig } from 'next-seo.config'; // Update the path accordingly
 
 type Props = {
   title: string,
@@ -23,12 +28,22 @@ function PostSingle({
   content,
   backlinks,
 }: Props) {
-  return (
-    <section className='w-full bg-gray-900'>
-      <div className="w-full mx-auto">
-        <div className="pt-32 pb-12 sm:pb-1 md:pt-40 flex justify-center bg-white backdrop-blur-xl">
+  const description = content.slice(0, 300); // Update as needed
 
-          <div className="w-full min-h-screen lg:pb-20 sm:pb-0 max-w-5xl">
+  const seoConfig = generateSeoConfig({
+    title,
+    description,
+    // Add other SEO-related properties as needed
+  });
+
+  return (
+    <>
+      <NextSeo {...seoConfig} />
+      <section className='w-full bg-gray-900'>
+      <div className="w-full mx-auto">
+        <div className="pt-32 pb-10 sm:pb-1 md:pt-40 flex justify-center bg-white backdrop-blur-xl">
+
+          <div className="w-full min-h-screen lg:pb-20 lg:mb-20 sm:pb-0 sm:mb-0 max-w-5xl">
 
             <article className="pt-10 mx-10 lg:px-10 lg:max-w-5xl">
 
@@ -49,6 +64,8 @@ function PostSingle({
                   {/* Article meta */}
                   {(author || date) && (
                     <>
+                      <PrintButton />
+
                       <PostMeta author={author} date={date}/>
                       <hr className="w-16 h-px pt-px bg-gray-200 border-0 my-6 col-start-1" />
                     </>
@@ -61,7 +78,7 @@ function PostSingle({
 
                 {/* Sidebar */}
                 <hr className="my-10 border border-dashed lg:block mx-4"/>
-                <aside className="lg:absolute lg:top-[200px] lg:w-64 lg:h-auto lg:right-10 lg:rounded-xl lg:shadow-md lg:bottom-0 relative md:mb-10 m-0 h-full md:w-full shrink-0 shadow-lg px-8 py-8 bg-gradient-to-r from-blue-900/80 to-blue-800/80 backdrop-blur-lg rounded-xl sm:rounded-b-lg">
+                <aside className="lg:absolute lg:top-[200px] lg:w-64 lg:h-auto lg:right-10 lg:rounded-xl lg:shadow-md lg:bottom-0 relative md:pb-10 m-0 h-full md:w-full shrink-0 shadow-lg px-8 py-8 bg-gradient-to-r from-blue-900/80 to-blue-800/80 backdrop-blur-lg rounded-xl sm:rounded-b-lg">
                   <div>
                     <h4 className="text-sm font-reg leading-snug tracking-tight mb-4 text-blue-200">Related Articles</h4>
                     <div className="grid grid-cols-1 justify-center items-center sm:justify-center sm:items-start sm:grid-flow-row sm:grid-template sm:grid-rows-2 md:grid-cols-flex lg:grid-cols-1 gap-4">
@@ -82,6 +99,7 @@ function PostSingle({
         </div>
       </div>
     </section>
+    </>
   );
 }
 

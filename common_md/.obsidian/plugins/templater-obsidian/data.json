@@ -11,14 +11,19 @@
   "auto_jump_to_cursor": false,
   "enable_system_commands": false,
   "shell_path": "",
-  "user_scripts_folder": "",
+  "user_scripts_folder": "templates",
   "enable_folder_templates": true,
-  "folder_templates": [],
+  "folder_templates": [
+    {
+      "folder": "templates",
+      "template": "templates/template.md"
+    }
+  ],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
-  "enabled_templates_hotkeys": [
-    ""
+  "enabled_templates_hotkeys": [],
+  "startup_templates": [
+    "templates/template.md"
   ],
-  "startup_templates": [],
   "enable_ribbon_icon": true
 }

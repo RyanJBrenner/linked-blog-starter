@@ -22,22 +22,22 @@ const PostPreview = ({
       <div>
         <header>
           <h2 className="h4 mb-2 text-lg">
-            <Link as={`/${slug}`} href="/[...slug]" className="hover:underline">{title}</Link>
+            <Link legacyBehavior href={`/[...slug]`} as={`/${slug}`}><a className="hover:underline">{title}</a></Link>
           </h2>
         </header>
         <div className="text-sm text-gray-600 mb-4 text-ellipsis">
-          {excerpt.slice(0, 400)}
+          {excerpt?.slice(0, 400)}
         </div>
         <footer className="text-sm">
           <PostMeta date={date} author={author} />
         </footer>
       </div>
-      <Link legacyBehavior as={`/${slug}`} href="/[...slug]" className="block shrink-0 ml-6">
-        <a>
-        <span className="sr-only">Read more</span>
-        <svg className="w-4 h-4 fill-current text-blue-600" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9.3 14.7l-1.4-1.4L12.2 9H0V7h12.2L7.9 2.7l1.4-1.4L16 8z" />
-        </svg>
+      <Link legacyBehavior href={`/[...slug]`} as={`/${slug}`}>
+        <a className="block shrink-0 ml-6">
+          <span className="sr-only">Read more</span>
+          <svg className="w-4 h-4 fill-current text-blue-600" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9.3 14.7l-1.4-1.4L12.2 9H0V7h12.2L7.9 2.7l1.4-1.4L16 8z" />
+          </svg>
         </a>
       </Link>
     </article>

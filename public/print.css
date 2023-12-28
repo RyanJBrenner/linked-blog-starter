@@ -1,0 +1,23 @@
+/* public/print.css */
+@media print {
+    body {
+        font-size: 0.75rem/* 12px */;
+        line-height: 1rem/* 16px */;
+    }
+
+    .h1 {
+        font-size: 2em;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .footer, aside {
+        display: none;
+    }
+}

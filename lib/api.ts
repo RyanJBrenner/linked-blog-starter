@@ -6,6 +6,21 @@ import { getMDExcerpt } from './markdownToHtml'
 
 const mdDir = path.join(process.cwd(), process.env.NEXT_PUBLIC_COMMON_MD_DIR)
 
+export async function getPostsFolders() {
+  try {
+    const files = await fs.promises.readdir(mdDir);
+    const folders = files.filter((file) => {
+      const fullPath = path.join(mdDir, file);
+      return fs.statSync(fullPath).isDirectory();
+    });
+    return folders;
+  } catch (error) {
+    console.error('Error reading directory:', error);
+    return [];
+  }
+}
+
+
 export function getPostBySlug(slug: string, fields: string[] = []) {
   const realSlug = slug.replace(/\.md(?:#[^\)]*)?$/, '')
   const fullPath = path.join(mdDir, `${realSlug}.md`)

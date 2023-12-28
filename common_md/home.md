@@ -14,10 +14,10 @@ Essentially, think of us as the wikipedia of wellness. We designed this space to
  > **[Exercise & Fitness](./fitness/exercise-fitness)** 
  > Staying active is the single easiest way to maintaining long term health. Explore some of our strongest fitness workouts and hacks.  
  > 
- > **[Mental Health](./mental-health/mental-health.md)** 
+ > **[Mental Health](mindset/mental-health.md)** 
  > Mental health has never been as popular as it is now, but not for good reason. Get a hold of your mindset with these top articles. 
  > 
- > **[Diet & Nutrition](./diet-nutrition/diet-nutrition)** 
+ > **[Diet & Nutrition](nutrition/diet-nutrition.md)** 
  > Some Obsidian Publish alternatives may not offer as much customization as users may want, making it difficult to tailor the appearance and functionality of their published notes to their specific needs and preferences.
  > 
  > **[Health Optimization](./health-optimization/brian-johnsons-routine)**: Some Obsidian Publish alternatives may not perform as quickly or smoothly as users may expect, which can make it frustrating to use.
@@ -26,12 +26,12 @@ Essentially, think of us as the wikipedia of wellness. We designed this space to
 
 1. Holistic and wellness center
 2. Health and Wellness 
-3. [Mental Health](./mental-health/mental-health)
+3. [Mental Health](mindset/mental-health.md)
 4. [Workout at home](./fitness/workouts-we-do-on-weekends)
 5. [Best gyms near me](./fitness/how-to-find-best-gyms-near-me)
 6. Core Workout
 7. Weight loss workout
-8. [Weight loss](./weight-loss/weight-loss)
+8. [Weight loss](nutrition/weight-loss/weight-loss.md)
 
 
 ## Get started with some FAQs:
