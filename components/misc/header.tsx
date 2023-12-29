@@ -71,7 +71,7 @@ const Header = () => {
                 </button>
               </li>
               <li>
-                <NextLink legacyBehavior href="https://docs.fleetingnotes.app/getting-started/download" passHref>
+                <NextLink legacyBehavior href="https://yudaewellness.com/shop" passHref>
                   <a className="btn-md text-gray-200 bg-blue-500 hover:bg-blue-400 my-8">
                     <span>Shop</span>
                     <svg className="w-3 h-3 fill-current text-gray-200 shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -114,7 +114,7 @@ const Header = () => {
                   </li>
                   <li>
                     {/* Update NextLink with href and passHref */}
-                    <NextLink legacyBehavior href="https://docs.fleetingnotes.app/getting-started/download" passHref>
+                    <NextLink legacyBehavior href="https://yudaewellness.com/shop" passHref>
                       <a onClick={toggleMobileNav} className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3 my-4 transition-all ease-in-out">
                         <span>Shop</span>
                         <svg className="w-3 h-3 fill-current text-gray-400 shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
