@@ -15,6 +15,12 @@
 
     .hide {
         display: none;
+        visibility: hidden;
+    }
+
+    nav {
+        display: none;
+        visibility: hidden;
     }
 
     .footer, aside {

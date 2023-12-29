@@ -21,15 +21,12 @@
             }
           },
           {
-            "id": "c0a712bfba4cf55f",
+            "id": "e3ab3161d21f4194",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "what-makes-something-healthy.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "currentVersion": "1.5.3"
               }
             }
           }
@@ -100,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "what-makes-something-healthy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "what-makes-something-healthy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "what-makes-something-healthy.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -163,39 +156,40 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c0a712bfba4cf55f",
+  "active": "e3ab3161d21f4194",
   "lastOpenFiles": [
-    "nutrition/recipes/healthy-dinner-recipes.md",
-    "what-makes-something-healthy.md",
-    "templates/recipes-temp.md",
-    "templates/blank-temp.md",
-    "nutrition/recipes/paprika-chicken-and-potatoes.md",
-    "nutrition/recipes/classic-lemon-bars.md",
-    "nutrition/diet-and-nutrition.md",
-    "movement/exercise-and-fitness.md",
-    "optimization/health-optimization.md",
-    "2023-12-27.md",
-    "movement/workouts/calisthenics-workout.md",
-    "movement/what-are-exercise-snacks.md",
-    "movement/how-frequently-should-I-workout-my-core.md",
+    "nutrition/what-makes-something-healthy.md",
+    "mindset/yoga.md",
+    "mindset/what-is-yoga-tantra.md",
+    "mindset/kriya-yoga.md",
+    "mindset/hatha-yoga.md",
+    "mindset/deep-breathing-exercises.md",
+    "mindset/vedas.md",
+    "mindset/the-natural-liberation-of-the-nature-of-mind.md",
+    "mindset/states-of-meditation.md",
+    "mindset/Patanjali's Yoga Sutras.md",
+    "mindset/Om.md",
+    "mindset/Om Mani Padme Hum.md",
+    "mindset/funerary text.md",
+    "mindset/Consciousness Transference - Natural Liberation through Recollection.md",
+    "mindset/Bhagavad Gita.md",
+    "nutrition/fasting.md",
+    "nutrition/weight-loss.md",
+    "nutrition/Shilajit.md",
+    "nutrition/Pqq.md",
+    "nutrition/piracetam.md",
+    "nutrition/modafinil.md",
+    "nutrition/eli-lilly-zepbound-weight-loss-drug.md",
+    "nutrition/the-green-giant.md",
+    "nutrition/super-veggie.md",
+    "nutrition/recipes-for-boosting-sex-drive.md",
+    "nutrition/paprika-chicken-and-potatoes.md",
+    "nutrition/weight-loss/drugs",
     "attachments/abs-art.png",
-    "mindset/mental-health.md",
-    "home.md",
-    "diet-nutrition/recipes/easy-oven-baked-chicken-with-paprika-and-potatoes.md",
     "attachments/abs-to-do.png",
     "i-wish-i-had-abs-2.png",
     "attachments/i-wish-i-had-abs.png",
     "attachments/abs-chart.png",
-    "reddit-asks/how-to-eat-a-taco.md",
-    "mindset/spiritualism/vedas.md",
-    "mindset/spiritualism/the-natural-liberation-of-the-nature-of-mind.md",
-    "mindset/spiritualism/states-of-meditation.md",
-    "mindset/spiritualism/Patanjali's Yoga Sutras.md",
-    "mindset/spiritualism/Om Mani Padme Hum.md",
-    "mindset/spiritualism/funerary text.md",
-    "mindset/spiritualism/Consciousness Transference - Natural Liberation through Recollection.md",
-    "mindset/spiritualism/Bhagavad Gita.md",
-    "ancient-texts/vedas.md",
     "attachments/the-meditative-brain.png",
     "the-meditative-brain.png",
     "Untitled-4-the-meditative-brain.png",
@@ -209,7 +203,6 @@
     "nutrition/drugs-and-supps",
     "nutrition/diet",
     "mindset/spiritualism/yoga",
-    "movement/workouts",
-    "movement"
+    "movement/workouts"
   ]
 }

@@ -17,7 +17,7 @@ const CommonMdFolderPage: React.FC<CommonMdFolderPageProps> = ({ folder, files }
       <div className="grid grid-cols-1 gap-6 items-center w-full min-h-max lg:min-h-screen pt-20 justify-center top-0">
         <div className="p-4">
           <h1 className="text-3xl font-bold mb-8 text-center">{folder}</h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 justify-space-evenly">
             {files.map((file) => (
               <FileCard key={file.slug} folder={folder} file={file} />
             ))}

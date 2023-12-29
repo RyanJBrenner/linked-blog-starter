@@ -1,5 +1,5 @@
 ---
-title: Chirstmas Eve Weekend Conditioning Workout
+title: Chirstmas Conditioning Workout
 excerpt: Jump into this conditioning style workout to pre-gram for our Christamas Eve Dinner. 
 date: 2023-12-24
 ---

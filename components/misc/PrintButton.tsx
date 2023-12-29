@@ -8,7 +8,7 @@ const PrintButton: React.FC = () => {
     };
 
     return (
-        <button onClick={handlePrint} className="hide bg-transparent border-2 border-gray-400/50 hover:border-transparent hover:bg-gray-400/50 text-gray-900 px-4 text-xs py-2 rounded mt-5">
+        <button onClick={handlePrint} className="hide hover:bg-transparent border-2 hover:border-gray-400/50 border-transparent bg-gray-400/50 text-gray-900 px-4 text-xs py-2 rounded mt-5">
             Print this Page
         </button>
     );

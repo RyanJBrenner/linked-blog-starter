@@ -1,4 +1,7 @@
-![[Piracetam - chemical structure.png]]
+---
+title: What is piracetam?
+excerpt: Piracetam is a substance that comes from the neurotransmitter GABA and improves many of our standard brain and body functions and may even help improve neurodegenaration. 
+---
 
 Piracetam is a substance that comes from the neurotransmitter GABA and improves many of our standard brain and body functions and may even help improve neurodegenaration. 
 
