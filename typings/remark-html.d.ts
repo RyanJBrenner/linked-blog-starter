@@ -1,3 +1,5 @@
+// @src/typings/remark-html.d.ts
+
 declare module 'remark-html' {
     import unified from 'unified';
     import { VFile } from 'vfile';

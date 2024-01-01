@@ -3,7 +3,7 @@ title: Yoga Trantra
 excerpt: Tantra Yoga is a modern reinterpretation of ancient Vedic and yogic practices.Unlike traditional yoga, Tantra values the body as a tool for spiritual exploration, focusing on the inner world of energy instead of detachment from the physical.
 ---
 
-# What is Yoga Trantra? 
+# What are the yoga trantras? 
 
 Tantra Yoga is a modern reinterpretation of ancient Vedic and yogic practices. Unlike traditional yoga, Tantra values the body as a tool for spiritual exploration, focusing on the inner world of energy instead of detachment from the physical.
 

@@ -1,4 +1,4 @@
-import {unified} from 'unified'
+import { unified } from 'unified'
 import remarkParse from 'remark-parse'
 import remarkGfm from 'remark-gfm'
 import remarkRehype from 'remark-rehype'
@@ -11,7 +11,6 @@ import removeMd from 'remove-markdown'
 import { renderToStaticMarkup } from "react-dom/server"
 import NotePreview from '../components/misc/note-preview'
 import { fromHtml } from 'hast-util-from-html'
-
 
 export async function markdownToHtml(markdown: string, currSlug: string) {
   markdown = updateMarkdownLinks(markdown, currSlug);
