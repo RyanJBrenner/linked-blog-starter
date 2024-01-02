@@ -40,23 +40,30 @@ const Header = () => {
           <nav className="header hidden md:flex md:grow">
             <ul className="flex grow justify-end flex-wrap items-center">
               <div>
-                <NextLink legacyBehavior href={`${router.basePath}/common_md/optimization`} passHref>
+                <NextLink legacyBehavior href={`${router.basePath}/common_md/health optimization`} passHref>
                   <a className="text-gray-900 hover:text-blue-400 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
                     Health Optimization
                   </a>
                 </NextLink>
               </div>
               <div>
-                <NextLink legacyBehavior href={`${router.basePath}/common_md/movement`} passHref>
+                <NextLink legacyBehavior href={`${router.basePath}/common_md/fitness & exercise`} passHref>
                   <a className="text-gray-900 hover:text-blue-400 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
-                    Exercise & Fitness
+                    Fitness & Exercise
                   </a>
                 </NextLink>
               </div>
               <div>
-                <NextLink legacyBehavior href={`${router.basePath}/common_md/nutrition`} passHref>
+                <NextLink legacyBehavior href={`${router.basePath}/common_md/diet & nutrition`} passHref>
                   <a className="text-gray-900 hover:text-blue-400 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
                     Diet & Nutrition
+                  </a>
+                </NextLink>
+              </div>
+              <div>
+                <NextLink legacyBehavior href={`${router.basePath}/common_md/mindset & philosophy`} passHref>
+                  <a className="text-gray-900 hover:text-blue-400 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
+                    Mindset & Philosophy
                   </a>
                 </NextLink>
               </div>
@@ -98,18 +105,27 @@ const Header = () => {
               <nav id="mobile-nav hide" className={`absolute top-full h-screen pb-16 z-20 left-0 w-full overflow-scroll bg-white/30 backdrop-blur-lg ${mobileNavVisible ? 'block' : 'hidden'}`}>
                 <ul className="px-5 py-2">
                   <li>
-                    <NextLink legacyBehavior  href={`${router.basePath}/common_md/optimization`} passHref>
-                      <a onClick={toggleMobileNav} className="text-gray-800 hover:text-gray-900 px-3 lg:px-5 py-4 flex items-center transition duration-150 ease-in-out">Health Optimization</a>
+                    <NextLink legacyBehavior  href={`${router.basePath}/common_md/health optimization`} passHref>
+                      <a onClick={toggleMobileNav} className="text-gray-800 hover:text-gray-900 px-3 lg:px-5 py-4 flex items-center transition duration-150 ease-in-out">
+                        Health Optimization</a>
                     </NextLink>
                   </li>
                   <li>
-                    <NextLink legacyBehavior href={`${router.basePath}/common_md/movement`} passHref>
-                      <a  onClick={toggleMobileNav} className="text-gray-800 hover:text-gray-900 px-3 lg:px-5 py-4 flex items-center transition duration-150 ease-in-out">Fitness & Exercise</a>
+                    <NextLink legacyBehavior href={`${router.basePath}/common_md/fitness & exercise`} passHref>
+                      <a  onClick={toggleMobileNav} className="text-gray-800 hover:text-gray-900 px-3 lg:px-5 py-4 flex items-center transition duration-150 ease-in-out">
+                        Fitness & Exercise</a>
                     </NextLink>
                   </li>
                   <li>
-                    <NextLink legacyBehavior href={`${router.basePath}/common_md/nutrition`} passHref>
-                      <a  onClick={toggleMobileNav} className="text-gray-800 hover:text-gray-900 px-3 lg:px-5 py-4 flex items-center transition duration-150 ease-in-out">Diet & Nutrition</a>
+                    <NextLink legacyBehavior href={`${router.basePath}/common_md/diet & nutrition`} passHref>
+                      <a  onClick={toggleMobileNav} className="text-gray-800 hover:text-gray-900 px-3 lg:px-5 py-4 flex items-center transition duration-150 ease-in-out">
+                        Diet & Nutrition</a>
+                    </NextLink>
+                  </li>
+                  <li>
+                    <NextLink legacyBehavior href={`${router.basePath}/common_md/mindset & philosophy`} passHref>
+                      <a  onClick={toggleMobileNav} className="text-gray-800 hover:text-gray-900 px-3 lg:px-5 py-4 flex items-center transition duration-150 ease-in-out">
+                        Mindset & Philosophy</a>
                     </NextLink>
                   </li>
                   <li>

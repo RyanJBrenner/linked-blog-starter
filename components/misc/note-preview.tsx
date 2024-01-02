@@ -1,6 +1,6 @@
 type Props = {
   title: string;
-  excerpt: string;
+  excerpt?: string;
   content: string;
 };
 

@@ -6,8 +6,8 @@ import "react-toastify/dist/ReactToastify.css"
 export default function PledgeOfWellness() {
     
     const [formData, setFormData] = useState({
-        name: "",         // Change this from firstName
-        last_name: "",    // Change this from lastName
+        name: "",        
+        last_name: "",    
         email: "",
       });
       
@@ -91,7 +91,7 @@ export default function PledgeOfWellness() {
                     <label htmlFor="name" className=" hidden mb-2 text-sm font-medium text-white dark:text-gray-300">
                     First name
                     </label>
-                    <input className="block p-3 my-3 pl-10 w-full text-sm text-gray-900 bg-transparent rounded-full border-b border-gray-900 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 placeholder-gray-900/80 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" 
+                    <input className="block p-3 my-3 pl-10 w-full text-sm text-gray-900 bg-transparent rounded-full border border-gray-900 focus:ring-primary-500 focus:border-primary-500 placeholder-gray-900/80" 
                     placeholder="First name" 
                     type="text" 
                     id="name" 
@@ -103,7 +103,7 @@ export default function PledgeOfWellness() {
                     <label htmlFor="last_name" className="hidden mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
                     Last name
                     </label>
-                    <input className="block p-3 my-3 mb-5 pl-10 w-full text-sm text-gray-900 bg-transparent rounded-full border-b border-gray-900 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 placeholder-gray-900/80 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" 
+                    <input className="block p-3 my-3 pl-10 w-full text-sm text-gray-900 bg-transparent rounded-full border border-gray-900 focus:ring-primary-500 focus:border-primary-500 placeholder-gray-900/80" 
                     placeholder="Last name" 
                     type="text" 
                     id="last_name" 
@@ -141,7 +141,7 @@ export default function PledgeOfWellness() {
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
                     </svg>
                 </div>
-                <input className="block p-3 my-5 pl-10 w-full text-sm text-gray-900 bg-transparent rounded-full border-b border-gray-900 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 placeholder-gray-900/80 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" 
+                <input className="block p-3 my-3 pl-10 w-full text-sm text-gray-900 bg-transparent rounded-full border border-gray-900 focus:ring-primary-500 focus:border-primary-500 placeholder-gray-900/80" 
                     placeholder="Enter your email" 
                     type="email" 
                     id="email" 

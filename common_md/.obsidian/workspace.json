@@ -11,27 +11,11 @@
             "id": "53c0e06134a707b5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "movement/exercise-and-fitness.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e3ab3161d21f4194",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -60,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#meal-planning",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,34 +140,46 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e3ab3161d21f4194",
+  "active": "53c0e06134a707b5",
   "lastOpenFiles": [
-    "nutrition/what-makes-something-healthy.md",
-    "mindset/yoga.md",
-    "mindset/what-is-yoga-tantra.md",
-    "mindset/kriya-yoga.md",
-    "mindset/hatha-yoga.md",
-    "mindset/deep-breathing-exercises.md",
-    "mindset/vedas.md",
-    "mindset/the-natural-liberation-of-the-nature-of-mind.md",
-    "mindset/states-of-meditation.md",
-    "mindset/Patanjali's Yoga Sutras.md",
-    "mindset/Om.md",
-    "mindset/Om Mani Padme Hum.md",
-    "mindset/funerary text.md",
-    "mindset/Consciousness Transference - Natural Liberation through Recollection.md",
-    "mindset/Bhagavad Gita.md",
-    "nutrition/fasting.md",
-    "nutrition/weight-loss.md",
-    "nutrition/Shilajit.md",
-    "nutrition/Pqq.md",
-    "nutrition/piracetam.md",
-    "nutrition/modafinil.md",
-    "nutrition/eli-lilly-zepbound-weight-loss-drug.md",
-    "nutrition/the-green-giant.md",
-    "nutrition/super-veggie.md",
-    "nutrition/recipes-for-boosting-sex-drive.md",
-    "nutrition/paprika-chicken-and-potatoes.md",
+    "diet & nutrition/macronutrients.md",
+    "attachments/nutrition-facts.png",
+    "attachments/1x/nutrition-facts.png",
+    "attachments/1x/Asset 1.png",
+    "attachments/1x/Asset 1.png.tmp$$",
+    "attachments/1x",
+    "diet & nutrition/how-to-read-a-nutrition-label.md",
+    "health optimization/health-routines.md",
+    "health optimization/health-optimization.md",
+    "health optimization/dry-eye-disease.md",
+    "health optimization/auditory-vagus-nerve-stimulation.md",
+    "health optimization",
+    "diet & nutrition/what-makes-something-healthy.md",
+    "diet & nutrition/weight-loss.md",
+    "diet & nutrition/the-green-giant.md",
+    "diet & nutrition/super-veggie.md",
+    "diet & nutrition/recipes-for-boosting-sex-drive.md",
+    "diet & nutrition/piracetam.md",
+    "diet & nutrition/paprika-chicken-and-potatoes.md",
+    "diet & nutrition/obesity.md",
+    "diet & nutrition/modafinil.md",
+    "diet & nutrition/healthy-dinner-recipes.md",
+    "diet & nutrition/fasting.md",
+    "diet & nutrition/eli-lilly-zepbound-weight-loss-drug.md",
+    "diet & nutrition/classic-lemon-bars.md",
+    "diet & nutrition/Shilajit.md",
+    "diet & nutrition/Pqq.md",
+    "diet & nutrition",
+    "mindset & philosophy/spiritualism/yoga",
+    "mindset & philosophy/yoga.md",
+    "mindset & philosophy/what-is-yoga-tantra.md",
+    "mindset & philosophy/vedas.md",
+    "mindset & philosophy/the-natural-liberation-of-the-nature-of-mind.md",
+    "mindset & philosophy/states-of-meditation.md",
+    "mindset & philosophy/spiritualism",
+    "mindset & philosophy",
+    "fitness & exercise/workouts",
+    "fitness & exercise",
     "nutrition/weight-loss/drugs",
     "attachments/abs-art.png",
     "attachments/abs-to-do.png",
@@ -191,18 +187,6 @@
     "attachments/i-wish-i-had-abs.png",
     "attachments/abs-chart.png",
     "attachments/the-meditative-brain.png",
-    "the-meditative-brain.png",
-    "Untitled-4-the-meditative-brain.png",
-    "attachments/tacos/taco-thoracic-spine.png",
-    "attachments/tacos/taco-reddit-question.png",
-    "attachments/tacos",
-    "attachments/meditation",
-    "diet-nutrition/recipes/recipes-for-boosting-sex-drive",
-    "nutrition/recipes",
-    "nutrition/weight-loss",
-    "nutrition/drugs-and-supps",
-    "nutrition/diet",
-    "mindset/spiritualism/yoga",
-    "movement/workouts"
+    "the-meditative-brain.png"
   ]
 }

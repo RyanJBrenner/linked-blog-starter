@@ -53,7 +53,7 @@ function parseFileToObj(pathToObj: string) {
 
   // modify obj
   if (typeof data['excerpt'] === 'undefined') {
-    data['excerpt'] = getMDExcerpt(content, 500);
+    data['excerpt'] = getMDExcerpt(content, 160);
   }
   if (typeof data['title'] === 'undefined') {
     data['title'] = decodeURI(path.basename(pathToObj, '.md'))

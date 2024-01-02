@@ -1,6 +1,6 @@
 ---
-title: Bryan Johnsons Health Routines
-excerpt: This is an overview of Bryan Johnsons health routine. 
+title: Health Routines
+excerpt: A list of science-backed health routines with proven results if performed correctly. Do not start without adult and/or health care supervision. 
 date: 2023-12-15
 ---
 
