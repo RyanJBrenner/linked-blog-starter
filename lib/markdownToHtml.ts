@@ -12,6 +12,7 @@ import { renderToStaticMarkup } from "react-dom/server"
 import NotePreview from '../components/misc/note-preview'
 import { fromHtml } from 'hast-util-from-html'
 
+
 export async function markdownToHtml(markdown: string, currSlug: string) {
   markdown = updateMarkdownLinks(markdown, currSlug);
 
@@ -50,7 +51,7 @@ export function getMDExcerpt(markdown: string, length: number = 500) {
 export function createNoteNode(title: string, content: string, excerpt: string) {
   const mdContentStr = getMDExcerpt(content);
   const mdExcerptStr = getMDExcerpt(excerpt);
-  const htmlStr = renderToStaticMarkup(NotePreview({ title, excerpt: mdExcerptStr, content: mdContentStr }))
+  const htmlStr = renderToStaticMarkup(NotePreview({ title, excerpt, content: mdContentStr }))
   const noteNode = fromHtml(htmlStr);
   return noteNode;
 }
