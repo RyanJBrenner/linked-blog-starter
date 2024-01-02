@@ -2,6 +2,25 @@
 
 @import url("https://use.typekit.net/csw7vwt.css");
 
+/* Add this to your CSS stylesheet */
+.play-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  color: #fff; /* White text color */
+  font-size: 24px; /* Adjust font size as needed */
+  cursor: pointer;
+}
+
+.play-button:hover {
+  background: rgba(0, 0, 0, 0.9); /* Darken the background on hover */
+}
+
+
 .markdown-body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -80,7 +99,7 @@
   margin: .67em 0;
   padding-bottom: .3em;
   font-size: 2em;
-  border-bottom: 1px solid hsla(210,18%,87%,1);
+  /* border-bottom: 1px solid hsla(210,18%,87%,1); */
 }
 
 .markdown-body mark {
@@ -109,7 +128,8 @@
 }
 
 .markdown-body img {
-  border-style: none;
+  border: none;
+  border-radius: 8px;
   max-width: 100%;
   box-sizing: content-box;
   background-color: #ffffff;
@@ -132,7 +152,7 @@
   overflow: hidden;
   background: transparent;
   border-bottom: 1px solid hsla(210,18%,87%,1);
-  height: .25em;
+  height: 1.25;
   padding: 0;
   margin: 24px 0;
   background-color: #d0d7de;
